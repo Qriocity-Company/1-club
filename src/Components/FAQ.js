@@ -1,0 +1,130 @@
+import React, { useState } from "react";
+
+const faqs = [
+  {
+    question: "How I’ll get the link to attend the program?",
+    answer:
+      "You will get an email right after you register. Do check the spam and promotions tab just in case it landed there.",
+  },
+  {
+    question: "How I’ll get the bonus items?",
+    answer: "You will get the bonus items through email.",
+  },
+  {
+    question: "Why does this program cost only ₹99?",
+    answer: "We aim to make it affordable for everyone.",
+  },
+  {
+    question: "Will I get the recording of the program?",
+    answer: "Yes, the recording will be provided.",
+  },
+  {
+    question: "Why is the training during business hours?",
+    answer: "It's designed to fit into the workday schedule.",
+  },
+  {
+    question: "Who is this seminar ideal for?",
+    answer: "It's ideal for entrepreneurs and business owners.",
+  },
+  {
+    question: "Is this applicable to my industry?",
+    answer: "Yes, it applies to all industries.",
+  },
+  {
+    question:
+      "Can I attend this if I want to start a business but don't have one yet?",
+    answer: "Absolutely, it will help you get started.",
+  },
+  {
+    question: "What if I have questions about registration, attending, etc?",
+    answer: "You can contact our support for assistance.",
+  },
+  {
+    question: "If I miss attending this time can I attend this again?",
+    answer: "Yes, you can attend the next session.",
+  },
+  {
+    question: "What do I need to keep handy during the webinar?",
+    answer: "A notepad and pen would be useful.",
+  },
+  {
+    question: "Can I attend this program along with my business partner(s)?",
+    answer: "Yes, it's encouraged.",
+  },
+  {
+    question: "Is it a LIVE workshop?",
+    answer: "Yes, it's a live interactive workshop.",
+  },
+];
+
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+  // Split the FAQs into two columns
+  const firstColumnFAQs = faqs.slice(0, 7);
+  const secondColumnFAQs = faqs.slice(7);
+
+  return (
+    <div className="w-full flex items-center p-4 md:p-0 justify-center bg-[#e3efec]">
+      <div className="max-w-4xl mx-auto py-8 md:mt-20 mb-20">
+        <h2 className="text-[28px] md:text-[36px] font-bold text-center ">
+          FREQUENTLY ASK QUESTIONS
+        </h2>
+
+        <div className="mt-10 md:mt-20 flex flex-col md:flex-row justify-center items-center md:gap-20">
+          {/* Left Column */}
+          <div className="w-full md:w-auto">
+            {firstColumnFAQs.map((faq, index) => (
+              <div
+                key={index}
+                className="border-2 border-gray-300 mb-2 w-full md:w-[500px]"
+              >
+                <button
+                  className="w-full text-left flex justify-between items-center p-4 text-base md:text-lg text-gray-800 font-semibold hover:bg-gray-100 focus:outline-none"
+                  onClick={() => toggleAccordion(index)}
+                >
+                  {faq.question}
+                  <span>{activeIndex === index ? "-" : "+"}</span>
+                </button>
+                {activeIndex === index && (
+                  <div className="p-4 text-gray-700 bg-gray-50">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Right Column */}
+          <div className="w-full md:w-auto">
+            {secondColumnFAQs.map((faq, index) => (
+              <div
+                key={index + 7}
+                className="border-2 border-gray-300 mb-2 w-full md:w-[500px]"
+              >
+                <button
+                  className="w-full text-left flex justify-between items-center p-4 text-base md:text-lg text-gray-800 font-semibold hover:bg-gray-100 focus:outline-none"
+                  onClick={() => toggleAccordion(index + 7)}
+                >
+                  {faq.question}
+                  <span>{activeIndex === index + 7 ? "-" : "+"}</span>
+                </button>
+                {activeIndex === index + 7 && (
+                  <div className="p-4 text-gray-700 bg-gray-50">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default FAQ;

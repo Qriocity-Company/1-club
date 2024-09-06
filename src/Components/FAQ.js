@@ -69,7 +69,7 @@ const FAQ = () => {
   const secondColumnFAQs = faqs.slice(7);
 
   return (
-    <div className="w-full flex items-center p-4 md:p-0 justify-center bg-[#e3efec]">
+    <div className="w-full flex items-center p-4 md:p-0 justify-center ">
       <div className="max-w-4xl mx-auto py-8 md:mt-20 mb-20">
         <h2 className="text-[28px] md:text-[36px] font-bold text-center ">
           FREQUENTLY ASK QUESTIONS

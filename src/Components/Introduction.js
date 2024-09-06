@@ -30,7 +30,7 @@ const Introduction = () => {
           <div className="flex justify-center items-center gap-2">
             <img src={clock} alt="Clock" />
             <h1 className="text-[16px] lg:text-[24px] font-[400]">
-              4th August, 2024
+              September 15,2024
             </h1>
           </div>
         </div>

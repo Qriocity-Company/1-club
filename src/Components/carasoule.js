@@ -8,71 +8,30 @@ import comma from "../assets/comma.png";
 const Banners = [
   {
     content:
-      "Although a bit on the pricier side, the breads deliver the quality. ",
-    name: "Saravana",
-    location: "Banglore",
+      "As a busy mom and entrepreneur, I was struggling with falling sales and family issues. After joining Lydia’s Trauma to Triumph program and her 1% Meditation Club, my life transformed in just 10 weeks. My family issues disappeared, my relationships healed, and I even launched a successful new business. Thank you, Lydia, for guiding me to inner healing and success! ",
+    name: "Anushka",
+    location: "India",
     img: human,
   },
   {
     content:
-      "I was never a fan of bread made from wheat due to their bland taste, but the one with honey completely changed my mind !",
-    name: "Saravana",
-    location: "Banglore",
+      "I had everything, but within 30 days, my life fell apart. Thanks to Lydia, I realized that my own thoughts were holding me back. She helped me reprogram my subconscious, and now my life is back on track. Lydia, your support changed everything for me!",
+    name: "Amy",
+    location: "USA",
     img: human,
   },
   {
     content:
-      "The coconut milk bread has my heart ! I never knew my favourite ingredient could be used in breads.",
-    name: "Saravana",
-    location: "Banglore",
+      "I was feeling stuck after moving to different countries and couldn’t find a job. But after just three sessions with Lydia, addressing my success blocks, I landed a job with a 60% pay raise! Lydia, you were the key to my success. Thank you!",
+    name: "Shwetha",
+    location: "USA",
     img: human,
   },
   {
     content:
-      "If it’s healthy then the taste is usually compromised. But the bread from Mahimyfoods is nutritious and tastes great ! ",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content: "I never knew anything this tasty could be healthy!",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content:
-      "As a bread lover and a gym rat, I restricted myself from consuming bread. But Mahimyfoods changed my perspective and now I can enjoy a slice of bread every once in a while without feeling guilty about it.",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content:
-      "I used to completely avoid breads, but the wheat bread with honey has changed my perspective and now I can’t do without eating it at least thrice a week !",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content:
-      "I have tried multiple nutritious bread brands, but Mahimyfoods seems to be my favourite. Their process of baking is transparent and extremely hygienic.",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content:
-      "Given my busy work schedule, Mahimyfood breads have come to my rescue. They indeed pack a punch of nutrition in very loaf of bread. ",
-    name: "Saravana",
-    location: "Banglore",
-    img: human,
-  },
-  {
-    content:
-      "Indha wheat bread laam sweet ah ve irukaadhu, but ivangal oda wheat bread with honey romba nalla irukku. Saapta wheat bread nu eh solla maateenga !",
-    name: "Saravana",
-    location: "Banglore",
+      "After 12 years of trauma and domestic violence, I was exhausted. Lydia’s 30-day challenge changed my life. I got promoted and reduced my workload by practicing the simple techniques she taught. Thank you, Lydia, for helping me rewire my mind and achieve success! ",
+    name: "Sneha",
+    location: "Australia",
     img: human,
   },
 ];

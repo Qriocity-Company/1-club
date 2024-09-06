@@ -21,8 +21,7 @@ const Learnings = () => {
               Effective Meditation Techniques
             </button>
             <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
-              Learn meditation methods that go beyond feel-good practices,
-              offering real and lasting benefits.
+              Easy steps to recover from burnout and keep your passion alive.
             </p>
           </div>
         </div>
@@ -83,11 +82,10 @@ const Learnings = () => {
           <img className="rounded-lg w-full lg:w-auto" src={building} />
           <div className="place-self-center flex flex-col gap-5">
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
-              Building Resilience
+              Worry Less
             </button>
             <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
-              Develop mental and emotional resilience to navigate challenges and
-              maintain a positive outlook.
+              How to stop worrying and focus on your goals.
             </p>
           </div>
         </div>

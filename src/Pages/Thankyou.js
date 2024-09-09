@@ -26,10 +26,7 @@ function Thankyou() {
             </span>{" "}
             for attending the webinar LIVE
           </li>
-          <li>
-            Pull your calendar 📅 and block this date and time:{" "}
-            <span className="font-semibold">[September 18 ]</span>
-          </li>
+          <li>Please mark September 18 at 7 pm EST on your calendar.</li>
           <li>
             Bring your notebook and pen 🖊 ready to take notes and implement
           </li>

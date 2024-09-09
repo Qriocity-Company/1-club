@@ -24,13 +24,13 @@ const Introduction = () => {
           <div className="flex justify-center items-center gap-2">
             <img src={calendar} alt="Calendar" />
             <h1 className="text-[16px] lg:text-[24px] font-[400]">
-              11 AM (1 Hr Workshop)
+              7 PM(1 Hr Workshop)
             </h1>
           </div>
           <div className="flex justify-center items-center gap-2">
             <img src={clock} alt="Clock" />
             <h1 className="text-[16px] lg:text-[24px] font-[400]">
-              September 15,2024
+              September 18,2024
             </h1>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Introduction = () => {
             onClick={handleButtonClick}
             className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
           >
-            Book your spot at 4.99$!
+            Book your spot at $4.99!
           </button>
           <p className="text-[16px] lg:text-[24px]">Only 10% Seats left</p>
         </div>
@@ -59,8 +59,7 @@ const Introduction = () => {
       <div className="flex flex-col justify-center items-center gap-4 lg:gap-10 p-2">
         <div className="bg-[#DBE1DA] w-fit lg:w-[550px] h-[150.31px] p-2 rounded-[11.39px] flex justify-center items-center border-b-black border-y-4">
           <p className="text-sm lg:text-lg text-center lg:text-left">
-            Enhance your concentration and clarity for better productivity
-            and achieve profound inner peace and emotional well-being.
+            Supercharge your productivity and experience deep inner peace.
           </p>
         </div>
         <img src={coach} alt="Coach" />

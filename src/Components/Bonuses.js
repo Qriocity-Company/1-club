@@ -48,7 +48,7 @@ const Bonuses = () => {
                     </h1>
                   </div>
                 </div>
-                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px]">
+                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px] text-center lg:text-start">
                   A comprehensive program designed to fast-track your financial
                   growth with daily actionable steps and mindset shifts
                 </p>
@@ -84,7 +84,7 @@ const Bonuses = () => {
                     </h1>
                   </div>
                 </div>
-                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px]">
+                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px] text-center lg:text-start">
                   Includes Inner Child Healing Meditation, Advanced Trauma
                   Release Session, and Emotional Freedom Techniques (EFT) guide.
                 </p>
@@ -123,7 +123,7 @@ const Bonuses = () => {
                     </h1>
                   </div>
                 </div>
-                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px]">
+                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px] text-center lg:text-start">
                   A series of guided meditation tapes focused on creating a
                   mindset of abundance and prosperity.
                 </p>
@@ -159,7 +159,7 @@ const Bonuses = () => {
                     </h1>
                   </div>
                 </div>
-                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px]">
+                <p className="text-[16px] md:text-[18px] w-full md:w-[300px] h-auto md:h-[100px] text-center lg:text-start">
                   A collection of affirmations to reprogram your subconscious
                   mind for success and positivity.
                 </p>

@@ -37,10 +37,10 @@ const Footer = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="md:text-5xl text-xl font-semibold  text-[#F15A29] ">
-              4.99$
+              $4.99
               <span className="ml-3 md:text-2xl text-xs line-through">
                 {" "}
-                50$
+                $50
               </span>
             </p>
             <p className="md:text-lg  text-sm font-semibold">
@@ -54,7 +54,7 @@ const Footer = () => {
               className="md:text-2xl text-xs bg-gradient-to-r from-[#FBA154] to-[#F15A29]  text-white md:px-12 px-4 md:py-4 py-2 rounded-full transition duration-300 "
               onClick={handleButtonClick}
             >
-              Book your spot at 4.99$!
+              Book your spot at $4.99!
             </button>
           </div>
         </div>

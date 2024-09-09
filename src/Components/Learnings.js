@@ -20,7 +20,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Effective Meditation Techniques
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               Easy steps to recover from burnout and keep your passion alive.
             </p>
           </div>
@@ -32,7 +32,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Subconscious Rewiring
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               Discover how to identify and reprogram limiting beliefs and
               negative thought patterns that hold you back.
             </p>
@@ -45,7 +45,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Stress and Anxiety Management
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               Gain strategies to effectively manage and overcome stress,
               anxiety, overwhelm, overthinking, and burnout.
             </p>
@@ -58,7 +58,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Mindfulness Practices
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               Integrate mindfulness into your daily routine to enhance focus,
               clarity, and emotional well-being.
             </p>
@@ -71,7 +71,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Overcoming Overwhelm
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               Learn practical steps to reduce feelings of overwhelm and handle
               multiple responsibilities with ease.
             </p>
@@ -84,7 +84,7 @@ const Learnings = () => {
             <button className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] lg:text-[24px] lg:font-medium w-full lg:w-fit">
               Worry Less
             </button>
-            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px]">
+            <p className="text-[16px] lg:text-[20px] w-full lg:w-[506px] text-center lg:text-start">
               How to stop worrying and focus on your goals.
             </p>
           </div>

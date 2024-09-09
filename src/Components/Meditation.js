@@ -70,7 +70,8 @@ const Meditation = () => {
                   <img src={item.img} />
                 </div>
                 <h1 className="ml-5 font-bold lg:mt-0 mt-5">
-                  {item.title} <span className="font-normal">{item.text}</span>
+                  {item.title}{" "}
+                  <span className="font-normal text-center">{item.text}</span>
                 </h1>
               </div>
             ))}
@@ -82,7 +83,7 @@ const Meditation = () => {
           onClick={handleButtonClick}
           className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] md:text-[24px] font-medium mt-8"
         >
-          Book your spot at 4.99$!
+          Book your spot at $4.99!
         </button>
       </div>
     </>

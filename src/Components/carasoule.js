@@ -94,7 +94,7 @@ function Carousel() {
           {Banners.map((banner, index) => (
             <div className="p-5 ">
               <div
-                className="  bg-[#a4dacd] h-[250px] p-5 md:p-10 flex justify-between flex-col gap-2 border-2 border-green-800  rounded-xl"
+                className="  bg-[#a4dacd] h-[300px]  p-5 md:p-10 flex justify-between flex-col gap-2 border-2 border-green-800  rounded-xl"
                 key={index}
               >
                 <h1 className="gabarito text-[14px]">{banner.content}</h1>
@@ -119,7 +119,7 @@ function Carousel() {
           {Banners.map((banner, index) => (
             <div className="p-5">
               <div
-                className="  bg-[#a4dacd]  justify-between h-[250px] p-5 md:p-10 flex flex-col gap-2 border-2 border-green-800 rounded-xl "
+                className="  bg-[#a4dacd]  justify-between h-[300px] p-5 md:p-10 flex flex-col gap-2 border-2 border-green-800 rounded-xl "
                 key={index}
               >
                 <h1 className="gabarito text-[14px]">{banner.content}</h1>

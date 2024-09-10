@@ -33,7 +33,11 @@ function Thankyou() {
             </span>{" "}
             for attending the webinar LIVE
           </li>
-          <li>Please mark September 18 at 7 pm EST on your calendar.</li>
+          <li>
+            Please mark September{" "}
+            <span className="text-[#0A6544] font-semibold">18 at 7 pm EST</span>
+            on your calendar.
+          </li>
           <li>
             Bring your notebook and pen 🖊 ready to take notes and implement
           </li>

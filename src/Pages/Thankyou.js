@@ -22,7 +22,7 @@ function Thankyou() {
               <span className="font-semibold text-[#0A6544]">
                 1% Meditators Community
               </span>
-              <span>-click here to join whatsapp community link</span>
+              <span> - click here to join whatsapp community link</span>
             </a>
           </li>
 

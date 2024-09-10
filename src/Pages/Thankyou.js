@@ -35,7 +35,7 @@ function Thankyou() {
           </li>
           <li>
             Please mark September{" "}
-            <span className="text-[#0A6544] font-semibold">18 at 7 pm EST</span>
+            <span className="text-[#0A6544] font-semibold">18 at 9 pm EST</span>{" "}
             on your calendar.
           </li>
           <li>

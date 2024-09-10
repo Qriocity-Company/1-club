@@ -24,7 +24,7 @@ const Introduction = () => {
           <div className="flex justify-center items-center gap-2">
             <img src={calendar} alt="Calendar" />
             <h1 className="text-[16px] lg:text-[24px] font-[400]">
-              7 PM EST(1 Hr Workshop)
+              9 PM EST(1 Hr Workshop)
             </h1>
           </div>
           <div className="flex justify-center items-center gap-2">

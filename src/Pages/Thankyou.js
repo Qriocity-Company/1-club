@@ -3,11 +3,11 @@ import React from "react";
 function Thankyou() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-t from-white bg-[#0A6544] text-white p-4">
-      <h1 className="text-4xl lg:text-6xl font-bold text-center mb-8">
+      <h1 className="text-4xl lg:text-6xl font-bold text-center mb-8 font-serif">
         Congrats for investing into your wellbeing.
       </h1>
 
-      <div className="bg-white rounded-lg shadow-lg p-8 text-gray-900 max-w-4xl w-full mt-5">
+      <div className="bg-white rounded-lg shadow-lg p-8 text-gray-900 max-w-4xl w-full mt-5 font-sans">
         <h2 className="text-2xl lg:text-3xl font-semibold text-center mb-6">
           Please follow the steps below:
         </h2>
@@ -15,7 +15,7 @@ function Thankyou() {
         <ol className="list-decimal list-inside space-y-4 text-lg">
           <li>
             <a
-              className="hover:scale-105 hover:opacity-70 cursor-pointer"
+              className="hover:scale-105 hover:opacity-70 cursor-pointer underline underline-offset-4"
               href="https://chat.whatsapp.com/DX8AyI1GqSIBfTz1ZdnXbv "
             >
               Join the exclusive{" "}

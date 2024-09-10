@@ -9,7 +9,7 @@ import helath from "../assets/health.png";
 
 const Meditation = () => {
   const handleButtonClick = () => {
-    window.open("https://buy.stripe.com/dR6aGDdfo5qwaCkcMZ", "_blank");
+    window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
   return (
     <>

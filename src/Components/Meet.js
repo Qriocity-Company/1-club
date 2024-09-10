@@ -5,7 +5,7 @@ import smallstar from "../assets/smallstar.png";
 
 const Meet = () => {
   const handleButtonClick = () => {
-    window.open("https://buy.stripe.com/dR6aGDdfo5qwaCkcMZ", "_blank");
+    window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
   return (
     <div className="bg-[#000E09] w-full mt-10 flex flex-col md:flex-row p-2">

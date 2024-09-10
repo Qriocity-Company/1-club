@@ -7,7 +7,7 @@ import smallstar from "../assets/smallstar.png";
 
 const Introduction = () => {
   const handleButtonClick = () => {
-    window.open("https://buy.stripe.com/dR6aGDdfo5qwaCkcMZ", "_blank");
+    window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
   return (
     <div className="mt-[50px] flex flex-col lg:flex-row justify-center items-center lg:items-start gap-10">

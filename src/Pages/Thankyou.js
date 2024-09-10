@@ -2,7 +2,7 @@ import React from "react";
 
 function Thankyou() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-t from-white to-green-600 text-white p-4">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-t from-white bg-[#0A6544] text-white p-4">
       <h1 className="text-4xl lg:text-6xl font-bold text-center mb-8">
         Congrats for investing into your wellbeing.
       </h1>
@@ -19,15 +19,16 @@ function Thankyou() {
               href="https://chat.whatsapp.com/DX8AyI1GqSIBfTz1ZdnXbv "
             >
               Join the exclusive{" "}
-              <span className="font-semibold text-green-600">
+              <span className="font-semibold text-[#0A6544]">
                 1% Meditators Community
               </span>
+              <span>-click here to join whatsapp community link</span>
             </a>
           </li>
 
           <li>
             Create your{" "}
-            <span className="font-semibold text-green-600">
+            <span className="font-semibold text-[#0A6544]">
               Calm-Clean space
             </span>{" "}
             for attending the webinar LIVE
@@ -39,7 +40,7 @@ function Thankyou() {
           <li>
             Make sure you finish your chores, sort your kids' schedule well in
             advance – so you can gift yourself{" "}
-            <span className="font-semibold text-green-600">
+            <span className="font-semibold text-[#0A6544]">
               100% presence of mind
             </span>
           </li>

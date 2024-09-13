@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Thankyou() {
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq("track", "Purchase", {
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-t from-white bg-[#0A6544] text-white p-4">
       <h1 className="text-4xl lg:text-6xl font-bold text-center mb-8 font-serif">
@@ -22,7 +31,7 @@ function Thankyou() {
               <span className="font-semibold text-[#0A6544]">
                 1% Meditators Community
               </span>
-              <span> - click here to join whatsapp community link</span>
+              <span> - click here to join whatsapp community link</span>
             </a>
           </li>
 
@@ -36,7 +45,7 @@ function Thankyou() {
           <li>
             Please mark September{" "}
             <span className="text-[#0A6544] font-semibold">18 at 9 pm EST</span>{" "}
-            on your calendar.
+            on your calendar.
           </li>
           <li>
             Bring your notebook and pen 🖊 ready to take notes and implement

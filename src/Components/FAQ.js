@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const faqs = [
   {
@@ -84,6 +84,17 @@ const FAQ = () => {
   // Split the FAQs into two columns
   const firstColumnFAQs = faqs.slice(0, 7);
   const secondColumnFAQs = faqs.slice(7);
+
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq("track", "ViewContent", {
+        content_name: "Stress and Anxiety Workshop",
+        content_category: "Meditation",
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+  }, []);
 
   return (
     <div className="w-full flex items-center p-4 md:p-0 justify-center ">

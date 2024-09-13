@@ -7,6 +7,16 @@ const Footer = () => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   const handleButtonClick = () => {
+    if (window.fbq) {
+      window.fbq("track", "InitiateCheckout", {
+        content_name: "Stress and Anxiety Workshop",
+        content_category: "Workshop",
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+
+    // Redirect to Stripe payment gateway
     window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
 
@@ -37,7 +47,7 @@ const Footer = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="md:text-5xl text-xl font-semibold  text-[#F15A29] ">
-              $4.99
+              $5
               <span className="ml-3 md:text-2xl text-xs line-through">
                 {" "}
                 $50

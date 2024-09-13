@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import med from "../assets/med.png";
 import bulb from "../assets/bulb.png";
 import relax from "../assets/relax.png";
@@ -9,8 +9,28 @@ import helath from "../assets/health.png";
 
 const Meditation = () => {
   const handleButtonClick = () => {
+    if (window.fbq) {
+      window.fbq("track", "InitiateCheckout", {
+        content_name: "Stress and Anxiety Workshop",
+        content_category: "Workshop",
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+
     window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
+
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq("track", "ViewContent", {
+        content_name: "Stress and Anxiety Workshop",
+        content_category: "Meditation",
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="flex flex-col justify-normal items-center mt-[100px] md:mt-[200px] px-4">
@@ -83,7 +103,7 @@ const Meditation = () => {
           onClick={handleButtonClick}
           className="bg-[#0B6544] rounded-full px-6 py-4 text-white text-[18px] md:text-[24px] font-medium mt-8"
         >
-          Book your spot at $4.99!
+          Book your spot at $5!
         </button>
       </div>
     </>

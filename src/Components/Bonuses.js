@@ -6,16 +6,6 @@ import healing from "../assets/healing.png";
 import meditate from "../assets/meditate.png";
 
 const Bonuses = () => {
-  useEffect(() => {
-    if (window.fbq) {
-      window.fbq("track", "ViewContent", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Meditation",
-        value: 5.0,
-        currency: "USD",
-      });
-    }
-  }, []);
   return (
     <div className="mt-[100px] flex flex-col justify-center items-center mb-10 px-4">
       <div className="flex  flex-row justify-center items-center md:items-baseline gap-2 md:gap-4">

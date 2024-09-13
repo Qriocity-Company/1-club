@@ -7,16 +7,6 @@ import building from "../assets/building.png";
 import overcome from "../assets/overcome.png";
 
 const Learnings = () => {
-  useEffect(() => {
-    if (window.fbq) {
-      window.fbq("track", "ViewContent", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Meditation",
-        value: 5.0,
-        currency: "USD",
-      });
-    }
-  }, []);
   return (
     <div className="mt-[100px] flex flex-col justify-center items-center p-4">
       <h1 className="text-[40px] font-bold text-center px-4">

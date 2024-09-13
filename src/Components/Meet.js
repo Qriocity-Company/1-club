@@ -17,16 +17,6 @@ const Meet = () => {
     window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
 
-  useEffect(() => {
-    if (window.fbq) {
-      window.fbq("track", "ViewContent", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Workshop",
-        value: 5.0,
-        currency: "USD",
-      });
-    }
-  }, []);
   return (
     <div className="bg-[#000E09] w-full mt-10 flex flex-col md:flex-row p-2">
       <div className="flex flex-col items-center md:items-start">

@@ -21,16 +21,6 @@ const Meditation = () => {
     window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
   };
 
-  useEffect(() => {
-    if (window.fbq) {
-      window.fbq("track", "ViewContent", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Meditation",
-        value: 5.0,
-        currency: "USD",
-      });
-    }
-  }, []);
   return (
     <>
       <div className="flex flex-col justify-normal items-center mt-[100px] md:mt-[200px] px-4">

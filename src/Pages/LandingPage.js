@@ -10,6 +10,16 @@ import Testimonials from "../Components/Testimonials";
 import Footer from "../Components/Footer";
 
 const LandingPage = () => {
+  useEffect(() => {
+    if (window.fbq) {
+      window.fbq("track", "ViewContent", {
+        content_name: "Stress and Anxiety Workshop",
+        content_category: "Workshop",
+        value: 5.0,
+        currency: "USD",
+      });
+    }
+  }, []);
   return (
     <>
       <div className="flex flex-col mt-10">

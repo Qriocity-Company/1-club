@@ -12,6 +12,8 @@ const FormPage = () => {
   const [phone, setPhone] = useState("");
   const [work, setWork] = useState("");
   const [loading, setLoading] = useState(false);
+  const link =
+    "https://drive.google.com/drive/folders/1WxTzI0OK8gwhEU_q1QN3gBOdX28d3gMb";
 
   const sendData = async () => {
     if (name == "" || email == "" || phone == "" || work == "") {

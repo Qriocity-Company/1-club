@@ -16,27 +16,35 @@ const FormPage = () => {
     "https://drive.google.com/drive/folders/1WxTzI0OK8gwhEU_q1QN3gBOdX28d3gMb";
 
   const sendData = async () => {
-    if (name == "" || email == "" || phone == "" || work == "") {
+    if (name === "" || email === "" || phone === "" || work === "") {
       toast.error("Fill all fields to get the offer!!");
       return;
     }
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://1-club-backend.vercel.app/api/users",
+        "https://one-club-crm.onrender.com/api/users",
         {
           name,
           email,
           phone,
           work,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
         }
       );
       setLoading(false);
-      window.href = link;
+      window.location.href = link; // Correct redirection
     } catch (error) {
-      console.log(error);
+      setLoading(false);
+      console.error(error);
+      toast.error("Something went wrong! Please try again.");
     }
   };
+
   return (
     <>
       <div className="flex flex-col-reverse lg:flex-row justify-center lg:gap-[100px] items-center h-auto lg:h-[100vh] w-[100vw] p-4 bg-gradient-to-br from-[#a1e5cc] to-white ">

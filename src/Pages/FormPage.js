@@ -137,33 +137,35 @@ const FormPage = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <PhoneInput
-              className="lg:ml-[120px] ml-[5px]"
-              country={"au"}
-              value={phone}
-              onChange={(value) => setPhone(value)}
-              inputProps={{
-                required: true,
-                name: "phoneNumber",
-                placeholder: "Enter Contact Number",
-              }}
-              containerStyle={{
-                width: "100%", // Ensures the phone input takes full width
-              }}
-              inputStyle={{
-                width: "300px", // Matches other input width
-                height: "45px", // Adjust height for consistency
-                border: "2px solid #4CAF50", // Matches border color
-                borderRadius: "8px", // Matches other inputs
-                paddingLeft: "50px", // Ensures space for the flag
-              }}
-              buttonStyle={{
-                border: "2px solid #4CAF50", // Matches other inputs
-                borderRadius: "8px 0 0 8px", // Ensures button aligns with the input
-                backgroundColor: "#fff", // Keeps the flag section white
-                paddingRight: "5px", // Adds a small padding to keep the flag closer to the left
-              }}
-            />
+            <div className="flex justify-center items-center">
+              <PhoneInput
+                country={"au"}
+                value={phone}
+                onChange={(value) => setPhone(value)}
+                inputProps={{
+                  required: true,
+                  name: "phoneNumber",
+                  placeholder: "Enter Contact Number",
+                }}
+                containerStyle={{
+                  width: "100%", // Ensures the phone input takes full width
+                }}
+                inputStyle={{
+                  width: "300px", // Matches other input width
+                  height: "45px", // Adjust height for consistency
+                  border: "2px solid #4CAF50", // Matches border color
+                  borderRadius: "8px", // Matches other inputs
+                  paddingLeft: "50px", // Ensures space for the flag
+                }}
+                buttonStyle={{
+                  border: "2px solid #4CAF50", // Matches other inputs
+                  borderRadius: "8px 0 0 8px", // Ensures button aligns with the input
+                  backgroundColor: "#fff", // Keeps the flag section white
+                  paddingRight: "5px", // Adds a small padding to keep the flag closer to the left
+                }}
+              />
+            </div>
+
             <input
               className="p-2 w-[300px] rounded-lg outline-none border-2 border-green-600"
               placeholder="What You Do?"

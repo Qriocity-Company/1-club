@@ -22,7 +22,17 @@ const FormPage = () => {
     }
     setLoading(true);
     try {
-      const { data } = await axios.post("");
+      const { data } = await axios.post(
+        "https://1-club-backend.vercel.app/api/users",
+        {
+          name,
+          email,
+          phone,
+          work,
+        }
+      );
+      setLoading(false);
+      window.href = link;
     } catch (error) {
       console.log(error);
     }

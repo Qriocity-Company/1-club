@@ -6,15 +6,15 @@ const FormPage = () => {
     <>
       <div className="flex flex-col-reverse lg:flex-row justify-center lg:gap-[100px] items-center h-auto lg:h-[100vh] w-[100vw] p-4 bg-gradient-to-br from-[#a1e5cc]  to-white ">
         <div className="container flex flex-col w-full lg:w-[50%] mt-10 lg:mt-0">
-          <h1 className="text-[#0A6544] hidden lg:flex font-bold text-[30px] lg:text-[40px] w-full lg:w-[700px] text-center lg:text-left font-serif">
+          <h1 className="text-[#0A6544] font-bold text-[30px] lg:text-[40px] w-full lg:w-[700px] text-center lg:text-left font-serif">
             Liberate & Thrive: Subconscious Stress Release Meditation Guide
           </h1>
 
-          <h1 className="font-bold hidden lg:flex text-[24px] lg:text-[30px] w-full lg:w-[600px] mt-5 text-center lg:text-left font-serif">
+          <h1 className="font-bold  text-[24px] lg:text-[30px] w-full lg:w-[600px] mt-5 text-center lg:text-left font-serif">
             Feeling Overwhelmed by Stress? Ready to Break Free from Subconscious
             Patterns Holding You Back?
           </h1>
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center lg:mt-0 mt-8">
             <div className="flex lg:mt-10 items-center gap-2 font-bold text-[16px] lg:text-[18px]">
               <IoMdCheckmarkCircleOutline
                 size={30}
@@ -97,9 +97,6 @@ const FormPage = () => {
             Download
           </button>
         </div>
-        <h1 className="text-[#0A6544] lg:hidden flex font-bold text-[30px] lg:text-[40px] w-full lg:w-[700px] text-center lg:text-left font-serif">
-          Liberate & Thrive: Subconscious Stress Release Meditation Guide
-        </h1>
       </div>
     </>
   );

@@ -5,6 +5,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { ImSpinner8 } from "react-icons/im";
+import { useNavigate } from "react-router-dom";
 
 const FormPage = () => {
   const [name, setName] = useState("");
@@ -12,8 +13,7 @@ const FormPage = () => {
   const [phone, setPhone] = useState("");
   const [work, setWork] = useState("");
   const [loading, setLoading] = useState(false);
-  const link =
-    "https://drive.google.com/drive/folders/1WxTzI0OK8gwhEU_q1QN3gBOdX28d3gMb";
+  const navigate = useNavigate();
 
   const sendData = async () => {
     if (name === "" || email === "" || phone === "" || work === "") {
@@ -41,7 +41,7 @@ const FormPage = () => {
       setEmail("");
       setPhone("");
       setWork("");
-      window.open(link, "_blank"); // Correct redirection
+      navigate("/thanksYou"); // Correct redirection
     } catch (error) {
       setLoading(false);
       console.error(error);

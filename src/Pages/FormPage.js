@@ -37,7 +37,11 @@ const FormPage = () => {
         }
       );
       setLoading(false);
-      window.location.href = link; // Correct redirection
+      setName("");
+      setEmail("");
+      setPhone("");
+      setWork("");
+      window.open(link, "_blank"); // Correct redirection
     } catch (error) {
       setLoading(false);
       console.error(error);

@@ -161,7 +161,7 @@ const AdsPage = () => {
           <h1 className="text-[48px] font-bold ">
             Are you constantly having thoughts like?
           </h1>
-          <div className="flex flex-col justify-center items-center gap-10 ">
+          <div className="flex flex-col justify-center items-center gap-10 mt-[60px]">
             {thoughts?.map((item) => {
               return (
                 <div className="bg-[#DAE1D9] w-[848px] h-[50px] flex rounded-[8.17px] border-2 border-[#B4B4B4] ">

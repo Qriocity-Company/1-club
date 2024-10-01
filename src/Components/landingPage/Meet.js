@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import coach from "../assets/coachfullpic.png";
-import star from "../assets/star.png";
-import smallstar from "../assets/smallstar.png";
+import coach from "../../assets/coachfullpic.png";
+import star from "../../assets/star.png";
+import smallstar from "../../assets/smallstar.png";
 
 const Meet = () => {
   const handleButtonClick = () => {

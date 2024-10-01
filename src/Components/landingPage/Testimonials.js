@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import "../App.css";
-import star from "../assets/starr.png";
+import "../../App.css";
 import Carasoule from "./carasoule";
 
 function Testimonials() {

@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import med from "../assets/med.png";
-import bulb from "../assets/bulb.png";
-import relax from "../assets/relax.png";
-import plant from "../assets/plant.png";
-import life from "../assets/life.png";
-import sleep from "../assets/sleep.png";
-import helath from "../assets/health.png";
+import med from "../../assets/med.png";
+import bulb from "../../assets/bulb.png";
+import relax from "../../assets/relax.png";
+import plant from "../../assets/plant.png";
+import life from "../../assets/life.png";
+import sleep from "../../assets/sleep.png";
+import helath from "../../assets/health.png";
 
 const Meditation = () => {
   const handleButtonClick = () => {

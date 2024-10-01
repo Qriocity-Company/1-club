@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import gift from "../assets/gift.png";
-import audio from "../assets/audio.png";
-import acc from "../assets/acc.png";
-import healing from "../assets/healing.png";
-import meditate from "../assets/meditate.png";
+import gift from "../../assets/gift.png";
+import audio from "../../assets/audio.png";
+import acc from "../../assets/acc.png";
+import healing from "../../assets/healing.png";
+import meditate from "../../assets/meditate.png";
 
 const Bonuses = () => {
   return (

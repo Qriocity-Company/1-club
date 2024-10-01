@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import human from "../assets/human.png";
-import comma from "../assets/comma.png";
+import human from "../../assets/human.png";
+import comma from "../../assets/comma.png";
 
 const Banners = [
   {

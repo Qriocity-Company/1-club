@@ -36,6 +36,7 @@ const FormPage = () => {
           },
         }
       );
+      localStorage.setItem("email", email);
       setLoading(false);
       setName("");
       setEmail("");

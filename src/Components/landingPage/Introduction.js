@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import calendar from "../assets/calendar.png";
-import clock from "../assets/clock.png";
-import coach from "../assets/coach.png";
-import star from "../assets/star.png";
-import smallstar from "../assets/smallstar.png";
+import calendar from "../../assets/calendar.png";
+import clock from "../../assets/clock.png";
+import coach from "../../assets/coach.png";
+import star from "../../assets/star.png";
+import smallstar from "../../assets/smallstar.png";
 
 const Introduction = () => {
   const handleButtonClick = () => {

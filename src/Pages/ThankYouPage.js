@@ -1,6 +1,7 @@
 import React from "react";
 
 const ThankYouPage = () => {
+  const email = localStorage.getItem("email");
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-tr from-green-600 via-green-300 to-green-100">
       <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">

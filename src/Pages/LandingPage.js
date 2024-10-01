@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
-import Introduction from "../Components/Introduction";
-import Meditation from "../Components/Meditation";
-import Learnings from "../Components/Learnings";
-import Bonuses from "../Components/Bonuses";
-import Meet from "../Components/Meet";
-import FAQ from "../Components/FAQ";
-import Testimonials from "../Components/Testimonials";
-import Footer from "../Components/Footer";
+import Introduction from "../Components/landingPage/Introduction";
+import Meditation from "../Components/landingPage/Meditation";
+import Learnings from "../Components/landingPage/Learnings";
+import Bonuses from "../Components/landingPage/Bonuses";
+import Meet from "../Components/landingPage/Meet";
+import FAQ from "../Components/landingPage/FAQ";
+import Testimonials from "../Components/landingPage/Testimonials";
+import Footer from "../Components/landingPage/Footer";
 
 const LandingPage = () => {
   useEffect(() => {

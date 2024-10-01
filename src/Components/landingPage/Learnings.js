@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import effective from "../assets/effective.png";
-import sub from "../assets/sub.png";
-import stress from "../assets/stress.png";
-import mindfull from "../assets/mindfull.png";
-import building from "../assets/building.png";
-import overcome from "../assets/overcome.png";
+import effective from "../../assets/effective.png";
+import sub from "../../assets/sub.png";
+import stress from "../../assets/stress.png";
+import mindfull from "../../assets/mindfull.png";
+import building from "../../assets/building.png";
+import overcome from "../../assets/overcome.png";
 
 const Learnings = () => {
   return (

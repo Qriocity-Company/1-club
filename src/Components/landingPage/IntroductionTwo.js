@@ -20,9 +20,9 @@ const IntroductionTwo = () => {
   };
 
   return (
-    <div className="mt-[50px] mx-64 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0">
+    <div className="mt-[50px] flex flex-col lg:flex-row justify-center items-center lg:items-start gap-10">
       <div className="flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-8">
-        <div className="flex flex-col text-[36px] lg:text-[60px] justify-center gap-0 items-center lg:items-start font-serif text-[#302825]">
+        <div className="flex mx-5 flex-col text-[36px] lg:text-[64px] justify-center gap-0 items-center lg:items-start font-serif text-[#302825]">
           <h1>Unleash Your Potential and Build Your Way to Growth, Riches and Relationships Using</h1>
           <h1 className="font-bold">The MAP METHOD™️</h1>
         </div>

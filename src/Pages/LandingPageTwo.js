@@ -188,7 +188,7 @@ const LandingPageTwo = () => {
 
         <MindReading/>
         <MindReadingTwo/>
-        <div className="w-full text-center text-5xl mt-32 pt-10 bg-[#E4F3E8]">
+        <div className="w-full text-center text-5xl mt-32 pt-10 px-5 bg-[#E4F3E8]">
           <div className="flex flex-col items-center">
             <p className="font-serif">HOW DO YOU DO THAT</p>
             <p className="text-2xl font-serif mt-10">All you need to do is to  REWIRE your subconscious mind  Using the</p>
@@ -248,7 +248,7 @@ const LandingPageTwo = () => {
 
             {/* WHO CAN BOOK Section */}
 
-            <div className="w-full text-5xl font-serif text-center my-20">
+            <div className="w-full px-10 text-3xl lg:text-5xl font-serif text-center my-20">
             Who can book this success block diagnosis call ?
                 <div className="flex gap-10 justify-center mt-10 flex-col lg:flex-row">
                   <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Entrepreneurs </div>
@@ -298,7 +298,7 @@ const LandingPageTwo = () => {
         </div>
 
 
-        <div className="mt-[100px]">
+        <div className=" mt-[100px]">
           <h1 className="text-center font-serif text-[32px] md:text-[48px]">
           But do you know the cost of 
           </h1>
@@ -401,7 +401,7 @@ const LandingPageTwo = () => {
                     </div>
 
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
-                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
+                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 2</div>
                   <div className="font-thin text-3xl">Attend an</div>
                   <div className="text-4xl">60 mins MAP</div>
                   <div className="text-4xl">session in zoom</div>
@@ -411,7 +411,7 @@ const LandingPageTwo = () => {
                     <img src={arrowright} />
                     </div>
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
-                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
+                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 3</div>
                   
                   <div className="text-4xl">Outcome here</div>
                  

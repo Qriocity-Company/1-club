@@ -11,14 +11,14 @@ import clash from "../../assets/clash.png"
 
 const SuccessMethod = () => {
     return(
-        <div className="bg-[#E4F3E8] justify-center p-10 text-center gap-10 lg:items-center flex flex-col mt-20">
+        <div className="bg-[#E4F3E8] justify-center py-10 px-2 text-center gap-10 lg:items-center flex flex-col mt-20">
             <div>
                 <p className="text-2xl font-bold font-sans">I have Figured Out</p>
                 <h1 className="lg:text-7xl text-4xl font-thin font-serif">Ultimate Success Method️</h1>
                 <p className="text-2xl font-bold font-sans">That Just Works</p>
             </div>
-            <div className="grid w-fit text lg:grid-cols-2 text-left text-2xl gap-10">
-            <div className="rounded-xl  flex flex-row bg-white shadow-2xl p-10">
+            <div className="grid  lg:grid-cols-2 text-left text-2xl gap-10">
+            <div className="rounded-xl flex flex-row bg-white shadow-2xl p-10">
                 <div className="h-full items-center justify-center flex">
                 <img
                 className=" size-20"

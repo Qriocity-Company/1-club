@@ -296,7 +296,7 @@ const AdsPage = () => {
           <div className="mt-[50px] md:mt-[100px] flex justify-center items-center w-full relative overflow-x-hidden p-4">
             <div className="bg-[#C1E5CA] rounded-full h-[200px] md:h-[379px] w-[200px] md:w-[379px] absolute opacity-20 -right-[150px] md:-right-[200px]"></div>
             <img src={leaf2} className="absolute right-0 hidden lg:block" />
-            <div className="bg-white border-2 border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
+            <div className="bg-green-200 border-2  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
               {[
                 "Keep living with patterns of overthinking",
                 "Keep getting triggered & controlled by your thoughts",
@@ -309,14 +309,17 @@ const AdsPage = () => {
               ].map((text, index) => (
                 <div
                   key={index}
-                  className="flex justify-start lg:items-start items-center gap-4 mb-4 "
+                  className="flex  border-green-900 border-opacity-35  w-fit justify-start lg:items-start items-center gap-4 mb-4 "
                 >
+                  
                   <img
                     className="h-[20px] w-[20px] md:h-[23px] md:w-[23px]"
                     src={icon}
                     alt="Icon"
                   />
+                  
                   <h1 className="w-full md:w-[763px]">{text}</h1>
+                  
                 </div>
               ))}
             </div>
@@ -333,11 +336,11 @@ const AdsPage = () => {
                 <table className="w-full table-fixed border-collapse">
                   <thead>
                     <tr>
-                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-gray-700 border-r"></th>
-                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-r border-gray-700">
+                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-white border-r"></th>
+                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-r border-white">
                         Other Coaches
                       </th>
-                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-gray-700 bg-[#0A6544]">
+                      <th className="text-center p-2 md:p-4 text-white lg:text-2xl text-lg border-b border-white bg-[#0A6544]">
                         Lydia Binil
                       </th>
                     </tr>
@@ -345,13 +348,13 @@ const AdsPage = () => {
                   <tbody className="text-white">
                     {data2.map((row, rowIndex) => (
                       <tr key={rowIndex}>
-                        <td className="p-2 md:p-4 text-left border-t border-r border-gray-700 font-semibold lg:font-bold text-[16px] md:text-[20px]">
+                        <td className="p-2 md:p-4 text-left border-t border-r border-white font-semibold lg:font-bold text-[16px] md:text-[20px]">
                           {row.name}
                         </td>
-                        <td className="p-2 md:p-4 text-left border-t border-r border-gray-700 text-[14px] lg:text-[16px]">
+                        <td className="p-2 md:p-4 text-left border-t border-r border-white text-[14px] lg:text-[16px]">
                           {row.check1}
                         </td>
-                        <td className="p-2 md:p-4 text-left border-t border-gray-700 bg-[#0A6544] text-[14px] lg:text-[16px]">
+                        <td className="p-2 md:p-4 text-left border-t border-white bg-[#0A6544] text-[14px] lg:text-[16px]">
                           {row.check2}
                         </td>
                       </tr>

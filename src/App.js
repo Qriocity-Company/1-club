@@ -5,12 +5,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import FormPage from "./Pages/FormPage";
 import ThankYouPage from "./Pages/ThankYouPage";
 import AdsPage from "./Pages/AdsPage";
+import LandingPageTwo from "./Pages/LandingPageTwo";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/landingpage" element={<LandingPageTwo />} />
         <Route path="/meditation" element={<FormPage />} />
         <Route path="/success" element={<Success />} />
         <Route path="/thanksYou" element={<ThankYouPage />} />

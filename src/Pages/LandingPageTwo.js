@@ -27,6 +27,7 @@ import leaf3 from "../assets/leaf3.png";
 import leaf4 from "../assets/leaf4.png";
 import leaf5 from "../assets/leaf5.png";
 import icon from "../assets/icon.png";
+import arrowright from "../assets/arrowright.png"
 
 
 const LandingPageTwo = () => {
@@ -383,6 +384,40 @@ const LandingPageTwo = () => {
             </div>
             </div>
 
+
+            {/* HOW IT WORKS */}
+            <div className="w-full px-10 text-5xl text-center font-bold">
+              How It Works
+
+              <div className="flex justify-center gap-10 my-20 flex-col lg:flex-row">
+                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
+                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
+                  <div className="font-thin text-3xl">Book an 1-1</div>
+                  <div className="text-4xl">Success Block</div>
+                  <div className="text-4xl">Diagnostic Call</div>
+                </div>
+                    <div className="items-center justify-center align-middle flex">
+                    <img src={arrowright} />
+                    </div>
+
+                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
+                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
+                  <div className="font-thin text-3xl">Attend an</div>
+                  <div className="text-4xl">60 mins MAP</div>
+                  <div className="text-4xl">session in zoom</div>
+                </div>
+
+                <div className=" items-center justify-center align-middle flex">
+                    <img src={arrowright} />
+                    </div>
+                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
+                  <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
+                  
+                  <div className="text-4xl">Outcome here</div>
+                 
+                </div>
+              </div>
+            </div>
 
         
        

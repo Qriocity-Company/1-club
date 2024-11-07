@@ -20,7 +20,7 @@ const IntroductionTwo = () => {
   };
 
   return (
-    <div className="mt-[50px] mx-24 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0">
+    <div className="mt-[50px] mx-64 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-0">
       <div className="flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-8">
         <div className="flex flex-col text-[36px] lg:text-[60px] justify-center gap-0 items-center lg:items-start font-serif text-[#302825]">
           <h1>Unleash Your Potential and Build Your Way to Growth, Riches and Relationships Using</h1>
@@ -65,7 +65,7 @@ const IntroductionTwo = () => {
 
       <div className="flex flex-col justify-center items-center gap-4 lg:gap-10 p-2">
         
-        <img src={coach} alt="Coach" />
+        <img src={coach} alt="Coach" className="h-96 min-w-96" />
         <div className="bg-black text-white  flex-col justify-center items-start w-full lg:w-[250.24px] h-[82.35px] rounded-[12.67px] mt-6 lg:mt-[450px] lg:ml-[150px] lg:absolute hidden lg:flex">
           <div className="bg-[#0A6544] flex justify-center items-center h-[18.59px] w-[34.64px] -mt-6 ml-5 rounded-sm">
             by

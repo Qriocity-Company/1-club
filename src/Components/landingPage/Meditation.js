@@ -18,7 +18,7 @@ const Meditation = () => {
       });
     }
 
-    window.open("https://buy.stripe.com/6oE5mj4IS3io9yg6oE", "_blank");
+    window.open("https://bit.ly/Trauma2Triumph-LydiaBinil", "_blank");
   };
 
   return (

@@ -29,6 +29,15 @@ const IntroductionTwo = () => {
         <div className="flex flex-col text-[20px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
           
         </div>
+        <div className="button flex flex-col justify-center items-center lg:items-start">
+          <button
+            onClick={handleButtonClick}
+            className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+          >
+            Take Control of Your Life Now!
+          </button>
+       
+        </div>
         <div className="flex flex-col justify-center items-start lg:items-start gap-2 lg:gap-5">
           <div className="flex justify-center items-center gap-2">
             <h1 className="text-[16px]  text-[#302825] font-bold lg:text-[32px]">
@@ -40,15 +49,7 @@ const IntroductionTwo = () => {
           </div>
         </div>
 
-        <div className="button flex flex-col justify-center items-center lg:items-start">
-          <button
-            onClick={handleButtonClick}
-            className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
-          >
-            Take Control of Your Life Now!
-          </button>
-       
-        </div>
+        
       </div>
 
       <div className="relative lg:place-self-end flex justify-center">

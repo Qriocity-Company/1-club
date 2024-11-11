@@ -440,9 +440,9 @@ const LandingPageTwo = () => {
               </div>
               <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
             
-            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
-            Success Block Diagnosis Call
+            BOOK YOUR CALL
           </button></Link>
             </div>
 

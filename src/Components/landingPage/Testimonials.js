@@ -7,9 +7,9 @@ function Testimonials() {
     <div className="w-full font-sans  flex  justify-center items-center px-2 md:px-0 py-10 md:py-20">
       <div className="w-full flex flex-col justify-center items-center  ">
         <h1 className=" text-center text-[32px] text-black md:text-[54px] font-semibold ">
-          Dont believe in my word
+        Don’t believe in my words !
         </h1>
-        <h2 className=" text-center text-[32px] text-black md:text-[40px] font-semibold" >See What Others Have to Say</h2>
+        <h2 className=" text-center text-[32px] text-black md:text-[50px] font-semibold" >See the Success Stories here</h2>
         <div>
           <Carasoule />
         </div>

@@ -46,9 +46,9 @@ const Meet = () => {
         </div>
         <button
           onClick={handleButtonClick}
-          className="bg-[#0B6544] hover:bg-green-900 transition-all  rounded-full p-3 md:ml-[100px] mt-10 text-white w-fit text-[18px] md:text-[20px] font-medium"
+          className="bg-[#0B6544] hover:bg-green-900 transition-all  rounded-full p-3 md:ml-[100px] mt-10 text-white w-fit text-[24px] md:text-[32px] font-medium"
         >
-          Book Your Success Block Diagnosis Call
+          BOOK YOUR SUCCESS BLOCK DIAGNOSIS CALL
         </button>
       </div>
       <div className="hidden lg:relative mt-10 md:mt-[100px] md:ml-[150px] lg:flex flex-col items-center">

@@ -24,9 +24,7 @@ const Meet = () => {
           <h1 className="text-[36px] md:text-[60.95px] flex justify-center items-center text-white gap-4 text-center md:text-left">
             Meet <span className="text-[#0A6544]"> Lydia Binil</span>
           </h1>
-          <h1 className="text-[24px] md:text-[40px] text-white text-center md:text-left">
-            Your Guide to Freedom and Success
-          </h1>
+         
         </div>
         <div className="flex flex-col md:flex-row md:ml-[100px] mt-[20px] md:mt-[50px] gap-4 md:gap-10 items-center md:items-start">
           <div className="h-[2px] md:h-[500px] md:p-[1px] bg-[#0A6544] w-full md:w-auto"></div>

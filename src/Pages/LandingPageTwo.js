@@ -37,21 +37,7 @@ import arrowright from "../assets/arrowright.png"
 import ImageCarousel from "../Components/landingPage/ImageCarousel";
 
 const LandingPageTwo = () => {
-  const chatScreenshots = [
-    test1,
-    test2,
-    test3,
-    test4,
-    test5,
-    test6,
-    test7,
-    test8,
-    test9,
-    test10,
-    test11,
-    test12,
-    test13,
-  ];
+  
 
   
 
@@ -465,14 +451,14 @@ const LandingPageTwo = () => {
 
         
         <Testimonials/>
-        <div className="my-20">
+        <div className="mt-20">
           <h1 className="lg:text-5xl text-3xl text-center font-bold">Our Clients ♥️ love Us</h1>
-        <ImageCarousel screenshots={chatScreenshots} />
+        <ImageCarousel  />
         </div>
         <div className="text-center">
         <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
             
-            className="bg-[#0B6544]  mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
+            className="bg-[#0B6544]  mb-32 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
             START YOUR JOURNEY NOW
           </button></Link>

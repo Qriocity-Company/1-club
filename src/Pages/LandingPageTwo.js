@@ -98,7 +98,7 @@ const LandingPageTwo = () => {
     },
     {
       name: "Results",
-      check1: "It may take a long time.",
+      check1: "It may take a long time",
       check2: "Instant Results with Lasting Impact",
     },
     {

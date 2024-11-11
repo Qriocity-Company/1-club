@@ -1,24 +1,52 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const ImageCarousel = ({ screenshots }) => {
   const carouselRef = useRef(null);
+  const isScrolling = useRef(false);
 
   // Scroll left function
   const scrollLeft = () => {
-    carouselRef.current.scrollBy({
-      left: -300,
-      behavior: 'smooth',
-    });
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({
+        left: -500,
+        behavior: 'smooth',
+      });
+    }
   };
 
   // Scroll right function
   const scrollRight = () => {
-    carouselRef.current.scrollBy({
-      left: 300,
-      behavior: 'smooth',
-    });
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({
+        left: 500,
+        behavior: 'smooth',
+      });
+    }
   };
+
+  // Auto-scroll functionality with infinite loop
+  useEffect(() => {
+    const autoScroll = setInterval(() => {
+      if (carouselRef.current && !isScrolling.current) {
+        const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
+
+        if (scrollLeft + clientWidth >= scrollWidth) {
+          // When reaching the end, reset scroll position to the beginning
+          carouselRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          // Otherwise, scroll to the right
+          scrollRight();
+        }
+      }
+    }, 2000); // Change slides every 2 seconds
+
+    // Clean up interval on component unmount
+    return () => clearInterval(autoScroll);
+  }, []);
+
+  // Clone images to create an infinite loop effect
+  const extendedScreenshots = [...screenshots, ...screenshots];
 
   return (
     <div className="relative max-w-7xl mx-auto my-12">
@@ -35,7 +63,7 @@ const ImageCarousel = ({ screenshots }) => {
         ref={carouselRef}
         className="flex overflow-x-scroll gap-4 p-4 scroll-smooth hide-scrollbar"
       >
-        {screenshots.map((image, index) => (
+        {extendedScreenshots.map((image, index) => (
           <div
             key={index}
             className="flex-shrink-0 w-[80vw] sm:w-[60vw] md:w-[45vw] lg:w-[30vw] xl:w-[25vw]"

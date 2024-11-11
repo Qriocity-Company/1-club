@@ -29,42 +29,28 @@ const Meet = () => {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row md:ml-[100px] mt-[20px] md:mt-[50px] gap-4 md:gap-10 items-center md:items-start">
-          <div className="h-[2px] md:h-[550px] md:p-[1px] bg-[#0A6544] w-full md:w-auto"></div>
+          <div className="h-[2px] md:h-[500px] md:p-[1px] bg-[#0A6544] w-full md:w-auto"></div>
           <div className="flex flex-col justify-center items-center r gap-4 md:gap-8 w-full md:w-[710px] text-white text-[16px] md:text-[20px] p-4 md:p-0">
             <p className="text-center lg:text-start">
-              Imagine a life where you wake up every day feeling free, focused,
-              and in flow. This is the life Lydia Binil is passionate about
-              helping others achieve. Lydia Binil is a powerhouse in the
-              Personal Development Industry with over 8 years of experience. As
-              a certified Subconscious Rewiring Practitioner, she has
-              transformed the lives of more than 8,000 professionals and
-              entrepreneurs, helping them achieve their goals with ease.
-            </p>
+            Welcome, fellow achiever! I'm Ly , your dedicated Success Mentor on a mission to propel you to the top 1% in your field. Whether you're a visionary business owner, a driven professional, or a charismatic leader, I specialize in guiding individuals like you to reach unmatched levels of success.
+
+
+         </p>
             <p className="text-center lg:text-start">
-              Starting as a Biotechnologist and earning an MBA in Human
-              Behaviour, Lydia blends scientific knowledge and behavioral
-              expertise. She is an award-winning Certified MAP Practitioner,
-              international speaker, and best-selling author of "Mumpreneur on
-              Fire." Lydia’s unique approach combines cutting-edge subconscious
-              rewiring techniques with practical strategies, making her guidance
-              both powerful and relatable. Her personal triumph over childhood
-              trauma fuels her mission to help 1 million people live lives of
-              freedom and flow.
+            With The MAP METHOD™️, I empower you to unlock your highest potential in your career, business, wealth, and personal growth. Imagine transforming any ordinary 1-hour slot into a million-dollar opportunity through Subconscious Rewiring, all while embracing the power of the golden hour.
+            ‍
             </p>
 
             <p className="text-center lg:text-start">
-              Join Lydia on a transformative journey to break free from
-              limitations and step into a life of abundance and fulfillment.
-              Discover the extraordinary power of subconscious rewiring and
-              unlock your highest potential with Lydia Binil.
+            Together, we'll rewrite the script of success. Join me on this exhilarating journey, and let's sculpt your path to extraordinary achievement.
             </p>
           </div>
         </div>
         <button
           onClick={handleButtonClick}
-          className="bg-[#0B6544] rounded-full p-4 md:ml-[100px] mt-10 text-white w-fit text-[18px] md:text-[24px] font-medium"
+          className="bg-[#0B6544] hover:bg-green-900 transition-all  rounded-full p-3 md:ml-[100px] mt-10 text-white w-fit text-[18px] md:text-[20px] font-medium"
         >
-          Book your Success Call Now
+          Book Your Success Block Diagnosis Call
         </button>
       </div>
       <div className="hidden lg:relative mt-10 md:mt-[100px] md:ml-[150px] lg:flex flex-col items-center">
@@ -80,7 +66,7 @@ const Meet = () => {
           alt="Small Star"
         />
       </div>
-      <img className="lg:absolute lg:mt-[220px] lg:ml-[900px]" src={coach} />
+      <img className="lg:absolute lg:mt-[180px] lg:ml-[900px]" src={coach} />
     </div>
   );
 };

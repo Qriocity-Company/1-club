@@ -16,6 +16,7 @@ import MindReading from "../Components/landingPage/MindReading";
 import MindReadingTwo from "../Components/landingPage/MindReadingTwo";
 import covid from "../assets/covid.png";
 import anxiety from "../assets/anxiety.png";
+import stress from "../assets/stress.png"
 import depression from "../assets/depression.png";
 import focus from "../assets/focus.png";
 import procastination from "../assets/procastination.png";
@@ -78,8 +79,8 @@ const LandingPageTwo = () => {
     },
     {
       name: "Results",
-      check1: "Can Take Long Time",
-      check2: "Immediate Results that Last Long",
+      check1: "It may take a long time.",
+      check2: "Instant Results with Lasting Impact",
     },
     {
       name: "Need to share ",
@@ -120,7 +121,7 @@ const LandingPageTwo = () => {
   ];
 
   const concerns = [
-    { icon: covid, content: "COVID 19 Concerns" },
+    { icon: covid, content: "Stress" },
     { icon: anxiety, content: "Anxiety" },
     { icon: depression, content: "Depression" },
     { icon: focus, content: "Lack of Focus" },
@@ -177,6 +178,13 @@ const LandingPageTwo = () => {
                 </div>
               </div>
             ))}
+
+<button
+            
+            className="bg-[#0B6544] my-5 hover:bg-green-900 transition-all  duration-300 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+          >
+            Remove these thoughts From You
+          </button>
           </div>
         </div>
 
@@ -186,12 +194,20 @@ const LandingPageTwo = () => {
           <div className="flex flex-col items-center">
             <p className="font-serif">HOW DO YOU DO THAT ?</p>
             <p className="text-2xl font-serif mt-10">All you need to do is to REWIRE your subconscious mind using the</p>
-            <button className="text-3xl text-white p-5 font-bold mb-10 rounded-xl font-sans hover:bg-green-950 transition-all mt-10 bg-green-800 w-fit text-center">
-  Holistic Power of<br />THE MAP Method ™️
-</button>
+            <button className="text-3xl cursor-default text-white p-5 font-bold mb-10 rounded-xl font-sans transition-all mt-10 bg-green-800 w-fit text-center">
+              Holistic Power of<br />THE MAP Method ™️
+            </button>
           </div>
 
-          <h1>And that’s why I am inviting you</h1>
+          <h1 className="font-serif text-3xl">And that’s why I am inviting you</h1>
+          <button
+            
+            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+          >
+            Book Your MAP Session Now
+          </button>
+          
+
         </div>
 
 
@@ -391,7 +407,7 @@ const LandingPageTwo = () => {
               How it Works
 
               <div className="flex justify-center gap-10 my-20 flex-col lg:flex-row">
-                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
+                <div className="bg-gray-300 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
                   <div className="font-thin text-3xl">Book a 1-1</div>
                   <div className="text-4xl">Success Block</div>
@@ -411,15 +427,20 @@ const LandingPageTwo = () => {
                 <div className=" items-center justify-center align-middle flex">
                     <img src={arrowright} />
                     </div>
-                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
+                <div className="bg-gray-100 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 3</div>
                   <div></div>
-                  <div className="text-2xl m-auto"></div>
+                  <div className="text-4xl m-auto">Instant Results <br/> with Lasting Impact</div>
                  
                 </div>
                 
               </div>
-              <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button className="bg-green-400 text-3xl px-5 hover:bg-green-700 transition-all hover:text-white py-2 rounded-full">Success Block Diagnosis Call</button></Link>
+              <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
+            
+            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+          >
+            Success Block Diagnosis Call
+          </button></Link>
             </div>
 
         

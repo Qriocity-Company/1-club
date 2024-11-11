@@ -44,7 +44,7 @@ const ImageCarousel = ({ screenshots }) => {
   }, []);
 
   return (
-    <div className="relative max-w-7xl mx-auto my-12 overflow-hidden">
+    <div className="relative max-w-7xl mx-auto mt-10 overflow-hidden">
 
 
       {/* Carousel Container */}

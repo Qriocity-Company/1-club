@@ -36,6 +36,15 @@ import test2 from "../assets/testimonials/test2.jpg"
 import test3 from "../assets/testimonials/test3.jpg"
 import test4 from "../assets/testimonials/test4.jpg"
 import test5 from "../assets/testimonials/test5.jpg"
+import test6 from "../assets/testimonials/test6.jpeg"
+import test7 from "../assets/testimonials/test7.jpeg"
+import test8 from "../assets/testimonials/test8.jpeg"
+import test9 from "../assets/testimonials/test9.jpeg"
+import test10 from "../assets/testimonials/test10.jpeg"
+import test11 from "../assets/testimonials/test11.jpeg"
+import test12 from "../assets/testimonials/test12.jpeg"
+import test13 from "../assets/testimonials/test13.jpeg"
+
 
 
 import ImageCarousel from "../Components/landingPage/ImageCarousel";
@@ -46,7 +55,15 @@ const LandingPageTwo = () => {
     test2,
     test3,
     test4,
-    test5
+    test5,
+    test6,
+    test7,
+    test8,
+    test9,
+    test10,
+    test11,
+    test12,
+    test13,
   ];
 
   
@@ -159,9 +176,7 @@ const LandingPageTwo = () => {
   return (
     <>
       <div className="flex flex-col mt-10">
-        <div className="flex justify-between">
-          <img className="ml-[50px] w-[126px] h-[110.83px]" src={logo} />
-        </div>
+        
         <IntroductionTwo/> 
         <Numbers/>
         <SuccessMethod/>
@@ -464,9 +479,18 @@ const LandingPageTwo = () => {
         
         <Testimonials/>
         <div className="my-20">
-          <h1 className="text-5xl mb-10 text-center font-bold">Our Clients ♥️ love Us</h1>
+          <h1 className="lg:text-5xl text-3xl text-center font-bold">Our Clients ♥️ love Us</h1>
         <ImageCarousel screenshots={chatScreenshots} />
         </div>
+        <div className="text-center">
+        <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
+            
+            className="bg-[#0B6544]  mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
+          >
+            START YOUR JOURNEY NOW
+          </button></Link>
+          </div>
+        
        
       </div>
     </>

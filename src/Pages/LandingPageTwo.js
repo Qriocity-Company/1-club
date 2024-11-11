@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 import Introduction from "../Components/landingPage/Introduction";
 import Meditation from "../Components/landingPage/Meditation";
 import Learnings from "../Components/landingPage/Learnings";
@@ -64,34 +65,24 @@ const LandingPageTwo = () => {
     },
     {
       name: "Approach",
-      check1: "No Scientific approach",
-      check2: "100% Backed by Science",
-    },
-    {
-      name: "Plagiarism",
-      check1: "Github Codes",
-      check2: "0% Plagiarized Code",
+      check1: "Normal approach",
+      check2: "Holistic 360° Approach",
     },
     {
       name: "Experience",
-      check1: "1-2 years of Experience",
+      check1: "Regular Experience",
       check2: "5+ Years of Experience",
     },
     {
       name: "Results",
-      check1: "2-3 months approach",
-      check2: "Immediate results can be seen within 1 session",
-    },
-    {
-      name: "Charges",
-      check1: "2999/hr",
-      check2: "Free",
+      check1: "Can Take Long Time",
+      check2: "Immediate Results that Last Long",
     },
     {
       name: "Need to share ",
       check1:
-        "You need to share, (use the MAP resource page PDF to get info on this comparison)",
-      check2: "No need to share the incident and re-live the painful traumas",
+        "Might have to share and re-live the Trauma",
+      check2: "No need to share or even Remember the details",
     },
     {
       name: "Need to remember the details or trauma",
@@ -392,7 +383,7 @@ const LandingPageTwo = () => {
               <div className="flex justify-center gap-10 my-20 flex-col lg:flex-row">
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
-                  <div className="font-thin text-3xl">Book an 1-1</div>
+                  <div className="font-thin text-3xl">Book a 1-1</div>
                   <div className="text-4xl">Success Block</div>
                   <div className="text-4xl">Diagnostic Call</div>
                 </div>
@@ -402,7 +393,7 @@ const LandingPageTwo = () => {
 
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 2</div>
-                  <div className="font-thin text-3xl">Attend an</div>
+                  <div className="font-thin text-3xl">Attend a</div>
                   <div className="text-4xl">60 mins MAP</div>
                   <div className="text-4xl">session in zoom</div>
                 </div>
@@ -412,14 +403,15 @@ const LandingPageTwo = () => {
                     </div>
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 3</div>
-                  
-                  <div className="text-4xl">Outcome here</div>
+                  <div></div>
+                  <div className="text-2xl m-auto"><Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button className="bg-green-400 px-5 hover:bg-green-700 transition-all hover:text-white py-2 rounded-full">Book a Call Now</button></Link></div>
                  
                 </div>
               </div>
             </div>
 
         
+        <Testimonials/>
        
       </div>
     </>

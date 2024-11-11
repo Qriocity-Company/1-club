@@ -16,7 +16,7 @@ const MindReadingTwo = () => {
         <div className="justify-center mx-10 gap-10 flex flex-col lg:flex-row mt-20">
             
             <div className="relative lg:w-2/4">
-    <img className="w-full h-auto" src={image} alt="Your image" />
+    <img className="w-full lg:block hidden  h-auto" src={image} alt="Your image" />
     <div className="absolute top-0 right-0 h-full w-1/4 bg-gradient-to-r from-transparent to-white"></div>
 </div>
 

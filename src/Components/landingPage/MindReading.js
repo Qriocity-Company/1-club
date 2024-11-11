@@ -13,7 +13,7 @@ import ellipse from "../../assets/Ellipse.png"
 
 const MindReading = () => {
     return(
-        <div className="justify-center p-10 gap-10 flex flex-col lg:flex-row mt-20">
+        <div className="justify-center p-10 gap-10 flex flex-col lg:flex-row">
             
             <div className="lg:w-1/3 pt-10 ">
            <div className="font-serif mb-20 text-6xl">

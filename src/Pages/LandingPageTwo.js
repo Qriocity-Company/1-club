@@ -181,7 +181,7 @@ const LandingPageTwo = () => {
 
 <button
             
-            className="bg-[#0B6544] my-5 hover:bg-green-900 transition-all  duration-300 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+            className="bg-[#0B6544] my-5 hover:bg-green-900 transition-all  duration-300 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
             Remove these thoughts From You
           </button>
@@ -202,7 +202,7 @@ const LandingPageTwo = () => {
           <h1 className="font-serif text-3xl">And that’s why I am inviting you</h1>
           <button
             
-            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[16px] lg:text-[24px] font-medium"
+            className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] mt-5 font-medium"
           >
             Book Your MAP Session Now
           </button>
@@ -293,7 +293,7 @@ const LandingPageTwo = () => {
           />
           <div className="flex justify-center items-center">
             <h1 className="text-[28px] md:text-[48px] font-bold text-white mt-[40px] md:mt-[100px] text-center">
-              For all your mental health concerns
+            Give yourself a fair chance to attend your
             </h1>
           </div>
 
@@ -407,7 +407,7 @@ const LandingPageTwo = () => {
               How it Works
 
               <div className="flex justify-center gap-10 my-20 flex-col lg:flex-row">
-                <div className="bg-gray-300 p-10 border-green-600 border-2 rounded-xl">
+                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 1</div>
                   <div className="font-thin text-3xl">Book a 1-1</div>
                   <div className="text-4xl">Success Block</div>
@@ -427,7 +427,7 @@ const LandingPageTwo = () => {
                 <div className=" items-center justify-center align-middle flex">
                     <img src={arrowright} />
                     </div>
-                <div className="bg-gray-100 p-10 border-green-600 border-2 rounded-xl">
+                <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 3</div>
                   <div></div>
                   <div className="text-4xl m-auto">Instant Results <br/> with Lasting Impact</div>

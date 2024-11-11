@@ -112,31 +112,7 @@ function Carousel() {
             </div>
           ))}
         </Slider>
-        <Slider
-          {...settings2}
-          className="w-[90%]  justify-between hidden md:flex"
-        >
-          {Banners.map((banner, index) => (
-            <div className="p-5">
-              <div
-                className="  bg-[#a4dacd]  justify-between h-[300px] p-5 md:p-10 flex flex-col gap-2 border-2 border-green-800 rounded-xl "
-                key={index}
-              >
-                <h1 className="gabarito text-[14px]">{banner.content}</h1>
-                <div className="w-full flex items-center">
-                  <div className="flex w-full items-center justify-between">
-                    <div className="flex flex-col items-center">
-                      <h1 className="gabarito font-bold text-[19.2px]">
-                        {banner.name}
-                      </h1>
-                    </div>
-                    <img src={comma} alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </Slider>
+        
       </div>
     </div>
   );

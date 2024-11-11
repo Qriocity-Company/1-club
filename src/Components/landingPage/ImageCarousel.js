@@ -3,9 +3,9 @@ import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const ImageCarousel = ({ screenshots }) => {
   const carouselRef = useRef(null);
-  const isScrolling = useRef(false);
+  const isAutoScrolling = useRef(false);
 
-  // Scroll left function
+  // Function to scroll left manually
   const scrollLeft = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollBy({
@@ -15,7 +15,7 @@ const ImageCarousel = ({ screenshots }) => {
     }
   };
 
-  // Scroll right function
+  // Function to scroll right manually
   const scrollRight = () => {
     if (carouselRef.current) {
       carouselRef.current.scrollBy({
@@ -25,31 +25,26 @@ const ImageCarousel = ({ screenshots }) => {
     }
   };
 
-  // Auto-scroll functionality with infinite loop
+  // Auto-scrolling and infinite loop
   useEffect(() => {
     const autoScroll = setInterval(() => {
-      if (carouselRef.current && !isScrolling.current) {
+      if (carouselRef.current) {
         const { scrollLeft, scrollWidth, clientWidth } = carouselRef.current;
+        // Automatically scroll right
+        carouselRef.current.scrollBy({ left: 500, behavior: 'smooth' });
 
-        if (scrollLeft + clientWidth >= scrollWidth) {
-          // When reaching the end, reset scroll position to the beginning
-          carouselRef.current.scrollTo({ left: 0, behavior: 'smooth' });
-        } else {
-          // Otherwise, scroll to the right
-          scrollRight();
+        // Check if we're near the end and reset to the start
+        if (scrollLeft + clientWidth >= scrollWidth - 1) {
+          carouselRef.current.scrollTo({ left: 0, behavior: 'instant' });
         }
       }
     }, 2000); // Change slides every 2 seconds
 
-    // Clean up interval on component unmount
     return () => clearInterval(autoScroll);
   }, []);
 
-  // Clone images to create an infinite loop effect
-  const extendedScreenshots = [...screenshots, ...screenshots];
-
   return (
-    <div className="relative max-w-7xl mx-auto my-12">
+    <div className="relative max-w-7xl mx-auto my-12 overflow-hidden">
       {/* Left Arrow Button */}
       <button
         onClick={scrollLeft}
@@ -61,9 +56,9 @@ const ImageCarousel = ({ screenshots }) => {
       {/* Carousel Container */}
       <div
         ref={carouselRef}
-        className="flex overflow-x-scroll gap-4 p-4 scroll-smooth hide-scrollbar"
+        className="flex overflow-x-scroll gap-4 scroll-smooth hide-scrollbar"
       >
-        {extendedScreenshots.map((image, index) => (
+        {screenshots.map((image, index) => (
           <div
             key={index}
             className="flex-shrink-0 w-[80vw] sm:w-[60vw] md:w-[45vw] lg:w-[30vw] xl:w-[25vw]"

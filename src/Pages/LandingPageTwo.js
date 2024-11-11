@@ -30,9 +30,24 @@ import leaf4 from "../assets/leaf4.png";
 import leaf5 from "../assets/leaf5.png";
 import icon from "../assets/icon.png";
 import arrowright from "../assets/arrowright.png"
-import ChatSlider from "../Components/landingPage/ChatSlider"
+
+import test1 from "../assets/testimonials/test1.jpg"
+import test2 from "../assets/testimonials/test2.jpg"
+import test3 from "../assets/testimonials/test3.jpg"
+import test4 from "../assets/testimonials/test4.jpg"
+import test5 from "../assets/testimonials/test5.jpg"
+
+
+import ImageCarousel from "../Components/landingPage/ImageCarousel";
 
 const LandingPageTwo = () => {
+  const chatScreenshots = [
+    test1,
+    test2,
+    test3,
+    test4,
+    test5
+  ];
 
   
 
@@ -448,7 +463,10 @@ const LandingPageTwo = () => {
 
         
         <Testimonials/>
-        <ChatSlider/>
+        <div className="my-20">
+          <h1 className="text-5xl mb-10 text-center font-bold">Our Clients ♥️ love Us</h1>
+        <ImageCarousel screenshots={chatScreenshots} />
+        </div>
        
       </div>
     </>

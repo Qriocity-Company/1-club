@@ -31,19 +31,6 @@ import leaf5 from "../assets/leaf5.png";
 import icon from "../assets/icon.png";
 import arrowright from "../assets/arrowright.png"
 
-import test1 from "../assets/testimonials/test1.jpg"
-import test2 from "../assets/testimonials/test2.jpg"
-import test3 from "../assets/testimonials/test3.jpg"
-import test4 from "../assets/testimonials/test4.jpg"
-import test5 from "../assets/testimonials/test5.jpg"
-import test6 from "../assets/testimonials/test6.jpeg"
-import test7 from "../assets/testimonials/test7.jpeg"
-import test8 from "../assets/testimonials/test8.jpeg"
-import test9 from "../assets/testimonials/test9.jpeg"
-import test10 from "../assets/testimonials/test10.jpeg"
-import test11 from "../assets/testimonials/test11.jpeg"
-import test12 from "../assets/testimonials/test12.jpeg"
-import test13 from "../assets/testimonials/test13.jpeg"
 
 
 

@@ -190,6 +190,8 @@ const LandingPageTwo = () => {
   Holistic Power of<br />THE MAP Method ™️
 </button>
           </div>
+
+          <h1>And that’s why I am inviting you</h1>
         </div>
 
 
@@ -200,7 +202,7 @@ const LandingPageTwo = () => {
             What will change after you 
             </h1>
             <h1 className="text-[28px] md:text-[60px] font-serif text-center">
-            attend the workshop?
+            attend the Diagnosis Call?
             </h1>
             
             <h1 className="text-[28px] mt-5 md:text-[28px] font-serif text-center">
@@ -254,6 +256,9 @@ const LandingPageTwo = () => {
                 </div>
                 <div className="flex gap-10 justify-center mt-10 flex-col lg:flex-row">
                 <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Business Owners </div>
+                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Doctors </div>
+                
+                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Successful Professionals</div>
                 <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Corporate Leaders </div>
               
                 </div>
@@ -296,10 +301,10 @@ const LandingPageTwo = () => {
 
         <div className=" mt-[100px]">
           <h1 className="text-center font-serif text-[32px] md:text-[48px]">
-          But do you know the cost of 
+          I want you know the cost of 
           </h1>
           <h1 className="text-center font-serif text-[32px] md:text-[48px]">
-          ignoring your feelings? 
+          ignoring your feelings
           </h1>
           
 
@@ -383,7 +388,7 @@ const LandingPageTwo = () => {
 
             {/* HOW IT WORKS */}
             <div className="w-full px-10 text-5xl text-center font-bold">
-              How It Works
+              How it Works
 
               <div className="flex justify-center gap-10 my-20 flex-col lg:flex-row">
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
@@ -409,10 +414,12 @@ const LandingPageTwo = () => {
                 <div className="bg-gray-200 p-10 border-green-600 border-2 rounded-xl">
                   <div className="bg-green-500 py-1 px-8 -translate-y-16 rounded-full text-2xl font-thin">Step 3</div>
                   <div></div>
-                  <div className="text-2xl m-auto"><Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button className="bg-green-400 px-5 hover:bg-green-700 transition-all hover:text-white py-2 rounded-full">Book a Call Now</button></Link></div>
+                  <div className="text-2xl m-auto"></div>
                  
                 </div>
+                
               </div>
+              <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button className="bg-green-400 text-3xl px-5 hover:bg-green-700 transition-all hover:text-white py-2 rounded-full">Success Block Diagnosis Call</button></Link>
             </div>
 
         

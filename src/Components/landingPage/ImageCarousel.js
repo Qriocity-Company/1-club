@@ -45,13 +45,7 @@ const ImageCarousel = ({ screenshots }) => {
 
   return (
     <div className="relative max-w-7xl mx-auto my-12 overflow-hidden">
-      {/* Left Arrow Button */}
-      <button
-        onClick={scrollLeft}
-        className="absolute left-2 md:left-4 top-1/2 transform -translate-y-1/2 bg-green-500 text-white p-1 md:p-2 rounded-full shadow-md hover:bg-green-600 z-10"
-      >
-        <FiChevronLeft className="w-6 h-6 md:w-8 md:h-8" />
-      </button>
+
 
       {/* Carousel Container */}
       <div
@@ -72,13 +66,8 @@ const ImageCarousel = ({ screenshots }) => {
         ))}
       </div>
 
-      {/* Right Arrow Button */}
-      <button
-        onClick={scrollRight}
-        className="absolute right-2 md:right-4 top-1/2 transform -translate-y-1/2 bg-green-500 text-white p-1 md:p-2 rounded-full shadow-md hover:bg-green-600 z-10"
-      >
-        <FiChevronRight className="w-6 h-6 md:w-8 md:h-8" />
-      </button>
+  
+     
     </div>
   );
 };

@@ -14,7 +14,7 @@ const SuccessMethod = () => {
         <div className="bg-[#E4F3E8] justify-center py-10 px-2 text-center gap-10 lg:items-center flex flex-col mt-20">
             <div>
                 <p className="text-2xl font-bold font-sans">I have Figured Out</p>
-                <h1 className="lg:text-7xl text-4xl font-thin font-serif">Ultimate Success Method️</h1>
+                <h1 className="lg:text-7xl text-4xl font-thin font-serif">The Ultimate Success Method️</h1>
                 <p className="text-2xl font-bold font-sans">That Just Works</p>
             </div>
             <div className="grid  lg:grid-cols-2 text-left text-2xl gap-10">

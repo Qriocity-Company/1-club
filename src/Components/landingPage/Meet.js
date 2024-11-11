@@ -64,7 +64,7 @@ const Meet = () => {
           onClick={handleButtonClick}
           className="bg-[#0B6544] rounded-full p-4 md:ml-[100px] mt-10 text-white w-fit text-[18px] md:text-[24px] font-medium"
         >
-          Book your spot at $5!
+          Book your Success Call Now
         </button>
       </div>
       <div className="hidden lg:relative mt-10 md:mt-[100px] md:ml-[150px] lg:flex flex-col items-center">

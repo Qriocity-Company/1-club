@@ -38,7 +38,10 @@ const LandingPageTwo = () => {
   const thoughts = [
     {
       content:
-        "Do you feel like your efforts aren’t leading to success? Are you wondering what you might be doing wrong?",
+        "Do you feel like your efforts aren’t leading to success?",
+    },
+    {
+      content: "Are you wondering what you might be doing wrong?",
     },
     {
       content: "Do you think your business can survive this financial crisis? Are you afraid of losing everything?",
@@ -60,7 +63,7 @@ const LandingPageTwo = () => {
     {
       name: "Method",
       check1:
-        "An effective method that’s still outdated - Talk Therapy, NLP, Hypnotherapy, Family Constellations, Ho’oponopono,",
+        "An effective method that’s still outdated - Talk Therapy, NLP, Hypnotherapy, Family Constellations, Ho’oponopono, etc.",
       check2: "MAP - 45+ years of research",
     },
     {
@@ -181,9 +184,11 @@ const LandingPageTwo = () => {
         <MindReadingTwo/>
         <div className="w-full text-center text-5xl mt-32 pt-10 px-5 bg-[#E4F3E8]">
           <div className="flex flex-col items-center">
-            <p className="font-serif">HOW DO YOU DO THAT</p>
-            <p className="text-2xl font-serif mt-10">All you need to do is to  REWIRE your subconscious mind  Using the</p>
-            <button className="text-3xl text-white p-5 font-bold mb-10 rounded-xl font-sans hover:bg-green-950 transition-all mt-10 bg-green-800 w-fit text-center">Holistic Power of THE MAP Method ™️</button>
+            <p className="font-serif">HOW DO YOU DO THAT ?</p>
+            <p className="text-2xl font-serif mt-10">All you need to do is to REWIRE your subconscious mind using the</p>
+            <button className="text-3xl text-white p-5 font-bold mb-10 rounded-xl font-sans hover:bg-green-950 transition-all mt-10 bg-green-800 w-fit text-center">
+  Holistic Power of<br />THE MAP Method ™️
+</button>
           </div>
         </div>
 

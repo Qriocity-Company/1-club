@@ -28,7 +28,7 @@ const MindReading = () => {
             And in my 7 years of experience, I know exactly what is keeping them unsuccessful despite working so hard.
            </p>
            <p className="mb-5">
-           And I know exactly how phenomenal success can be Achieved…
+           And I know exactly how phenomenal success can be achieved…
            </p>
            </div>
            </div>

@@ -33,11 +33,12 @@ function Thankyou() {
           </li>
           <li>
           Please mark {" "}
-            
+          <span className="font-semibold text-[#0A6544]">
             the call booked date on your calendar
+            </span>
           </li>
           <li>
-            Bring your notebook and pen 🖊 ready to take notes and implement
+            Bring your <span className="font-semibold text-[#0A6544]"> notebook and pen 🖊</span> ready to take notes and implement
           </li>
           <li>
             Make sure you finish your chores, sort your kids' schedule well in

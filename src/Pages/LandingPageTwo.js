@@ -37,6 +37,17 @@ import arrowright from "../assets/arrowright.png"
 import ImageCarousel from "../Components/landingPage/ImageCarousel";
 
 const LandingPageTwo = () => {
+
+  const handleButtonClick = () => {
+    if (window.fbq) {
+      window.fbq("track", "BookAppointment", {
+        content_name: "Google Calendar Booking",
+        content_category: "Appointment",
+      });
+    }
+
+    window.open("https://bit.ly/Trauma2Triumph-LydiaBinil", "_blank");
+  };
   
 
   
@@ -181,14 +192,14 @@ const LandingPageTwo = () => {
                 </div>
               </div>
             ))}
-<Link to="https://bit.ly/Trauma2Triumph-LydiaBinil">
-<button
+
+<button onClick={handleButtonClick}
             
             className="bg-[#0B6544] my-5 hover:bg-green-900 transition-all  duration-300 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
             REMOVE THESE THOUGHTS FROM YOU
           </button>
-          </Link>
+          
           </div>
         </div>
 
@@ -204,14 +215,14 @@ const LandingPageTwo = () => {
           </div>
 
           <h1 className="font-serif text-3xl">And that’s why I am inviting you</h1>
-          <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil">
-          <button
+          
+          <button onClick={handleButtonClick}
             
             className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] mt-5 font-medium"
           >
             BOOK YOUR MAP SESSION NOW
           </button>
-          </Link>
+          
           
 
         </div>
@@ -441,12 +452,12 @@ const LandingPageTwo = () => {
                 </div>
                 
               </div>
-              <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
+              <button onClick={handleButtonClick}
             
             className="bg-[#0B6544] mb-5 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
             BOOK YOUR CALL NOW
-          </button></Link>
+          </button>
             </div>
 
         
@@ -456,12 +467,12 @@ const LandingPageTwo = () => {
         <ImageCarousel  />
         </div>
         <div className="text-center">
-        <Link to="https://bit.ly/Trauma2Triumph-LydiaBinil"><button
+        <button onClick={handleButtonClick}
             
             className="bg-[#0B6544]  mb-32 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
             START YOUR JOURNEY NOW
-          </button></Link>
+          </button>
           </div>
         
        

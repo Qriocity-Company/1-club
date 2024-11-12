@@ -14,7 +14,7 @@ const Meet = () => {
     //   });
     // }
 
-    window.open("https://calendar.app.google/QTLRXDiZRHReZVa86", "_blank");
+    window.open("https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3AbrL4sOpIVCatXMqyQuLFaPqe55LDw8dPhtp3eZjpoQ3DCBkgM2tS5xFC1TPjSFosCKOo5HbE", "_blank");
   };
 
   return (

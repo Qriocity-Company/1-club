@@ -22,30 +22,19 @@ function Thankyou() {
         </h2>
 
         <ol className="list-decimal list-inside space-y-4 text-lg">
-          <li>
-            <a
-              className="hover:scale-105 hover:opacity-70 cursor-pointer underline underline-offset-4"
-              href="https://chat.whatsapp.com/DX8AyI1GqSIBfTz1ZdnXbv "
-            >
-              Join the exclusive{" "}
-              <span className="font-semibold text-[#0A6544]">
-                1% Meditators Community
-              </span>
-              <span> - click here to join whatsapp community link</span>
-            </a>
-          </li>
+         
 
           <li>
-            Create your{" "}
+          Create your{" "}
             <span className="font-semibold text-[#0A6544]">
-              Calm-Clean space
+            Calm-Clean space
             </span>{" "}
-            for attending the webinar LIVE
+            for attending the call LIVE
           </li>
           <li>
-            Please mark September{" "}
-            <span className="text-[#0A6544] font-semibold">18 at 9 pm EST</span>{" "}
-            on your calendar.
+          Please mark {" "}
+            
+            the call booked date on your calendar
           </li>
           <li>
             Bring your notebook and pen 🖊 ready to take notes and implement

@@ -8,11 +8,9 @@ import smallstar from "../../assets/smallstar.png";
 const IntroductionTwo = () => {
   const handleButtonClick = () => {
     if (window.fbq) {
-      window.fbq("track", "InitiateCheckout", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Workshop",
-        value: 5.0,
-        currency: "USD",
+      window.fbq("track", "BookAppointment", {
+        content_name: "Google Calendar Booking",
+        content_category: "Appointment",
       });
     }
 

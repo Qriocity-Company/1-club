@@ -9,16 +9,16 @@ import helath from "../../assets/health.png";
 
 const Meditation = () => {
   const handleButtonClick = () => {
-    if (window.fbq) {
-      window.fbq("track", "InitiateCheckout", {
-        content_name: "Stress and Anxiety Workshop",
-        content_category: "Workshop",
-        value: 5.0,
-        currency: "USD",
-      });
-    }
+    // if (window.fbq) {
+    //   window.fbq("track", "InitiateCheckout", {
+    //     content_name: "Stress and Anxiety Workshop",
+    //     content_category: "Workshop",
+    //     value: 5.0,
+    //     currency: "USD",
+    //   });
+    // }
 
-    window.open("https://bit.ly/Trauma2Triumph-LydiaBinil", "_blank");
+    window.open("https://calendar.app.google/QTLRXDiZRHReZVa86", "_blank");
   };
 
   return (

@@ -39,14 +39,14 @@ import ImageCarousel from "../Components/landingPage/ImageCarousel";
 const LandingPageTwo = () => {
 
   const handleButtonClick = () => {
-    if (window.fbq) {
-      window.fbq("track", "BookAppointment", {
-        content_name: "Google Calendar Booking",
-        content_category: "Appointment",
-      });
-    }
+    // if (window.fbq) {
+    //   window.fbq("track", "BookAppointment", {
+    //     content_name: "Google Calendar Booking",
+    //     content_category: "Appointment",
+    //   });
+    // }
 
-    window.open("https://bit.ly/Trauma2Triumph-LydiaBinil", "_blank");
+    window.open("https://calendar.app.google/QTLRXDiZRHReZVa86", "_blank");
   };
   
 

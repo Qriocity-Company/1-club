@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 function Thankyou() {
   useEffect(() => {
     if (window.fbq) {
-      window.fbq("track", "Purchase", {
-        value: 5.0,
-        currency: "USD",
+      window.fbq("track", "CompleteBooking", {
+        content_name: "Google Calendar Appointment",
+        content_category: "Appointment",
       });
     }
   }, []);

@@ -18,7 +18,7 @@ const Meditation = () => {
     //   });
     // }
 
-    window.open("https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3AbrL4sOpIVCatXMqyQuLFaPqe55LDw8dPhtp3eZjpoQ3DCBkgM2tS5xFC1TPjSFosCKOo5HbE", "_blank");
+    window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph-15-1731481629597", "_blank");
   };
 
   return (

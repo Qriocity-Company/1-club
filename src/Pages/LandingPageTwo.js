@@ -39,12 +39,12 @@ import ImageCarousel from "../Components/landingPage/ImageCarousel";
 const LandingPageTwo = () => {
 
   const handleButtonClick = () => {
-    // if (window.fbq) {
-    //   window.fbq("track", "BookAppointment", {
-    //     content_name: "Google Calendar Booking",
-    //     content_category: "Appointment",
-    //   });
-    // }
+    if (window.fbq) {
+      window.fbq("track", "BookAppointment", {
+         content_name: "Google Calendar Booking",
+         content_category: "Appointment",
+      });
+     }
 
     window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph-15-1731481629597", "_blank");
   };

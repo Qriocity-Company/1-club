@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 function Thankyou() {
   useEffect(() => {
     if (window.fbq) {
-      window.fbq("track", "CompleteBooking", {
+      window.fbq("track", "CompleteRegistration", {
         content_name: "Google Calendar Appointment",
         content_category: "Appointment",
       });

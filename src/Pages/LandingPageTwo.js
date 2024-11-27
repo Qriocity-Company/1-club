@@ -221,7 +221,7 @@ const LandingPageTwo = () => {
 
         <MindReading/>
         <MindReadingTwo/>
-        <div className="w-full text-center text-5xl mt-32 pt-10 px-5 bg-[#E4F3E8]">
+        <div className="w-full text-center text-5xl mt-10 pt-10 px-5 bg-[#E4F3E8]">
           <div className="flex flex-col items-center">
             <p className="font-serif">HOW DO YOU DO THAT ?</p>
             <p className="text-2xl font-serif mt-10">All you need to do is to REWIRE your subconscious mind using the</p>

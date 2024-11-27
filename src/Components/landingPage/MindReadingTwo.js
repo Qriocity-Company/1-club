@@ -13,7 +13,7 @@ import ellipse from "../../assets/Ellipse.png"
 import image from "../../assets/image.jpg"
 const MindReadingTwo = () => {
     return(
-        <div className="justify-center mx-10 gap-10 flex flex-col lg:flex-row mt-20">
+        <div className="justify-center mx-10 gap-10 flex flex-col lg:flex-row ">
             
             <div className="relative lg:w-2/4">
     <img className="w-full lg:block hidden  h-auto" src={image} alt="Your image" />
@@ -21,7 +21,7 @@ const MindReadingTwo = () => {
 </div>
 
             <div className="lg:w-1/3 pt-10 ">
-           <div className="font-serif mb-20 text-6xl">
+           <div className="font-serif  text-6xl">
             <p>And the power you are seeking is inside you…
             </p>
             
@@ -30,7 +30,7 @@ const MindReadingTwo = () => {
            <p className="mb-5">
            And You have the power to achieve any form of success you desire.
            </p>
-           <div className=" text-green-800 text-3xl p-5 border-2 border-gray-800 mt-20">
+           <div className=" text-green-800 text-3xl p-5 border-2 border-gray-800 mt-10">
             BY USING MY TOOLS TO HELP YOU REACH YOUR FULL POTENTIAL.
            </div>
            </div>

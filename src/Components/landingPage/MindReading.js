@@ -1,48 +1,43 @@
-import React, { useEffect } from "react";
-import calendar from "../../assets/calendar.png";
-import clock from "../../assets/clock.png";
-import coach from "../../assets/coach.png";
-import star from "../../assets/star.png";
-import smallstar from "../../assets/smallstar.png";
-import handbulb from "../../assets/handbulb.png"
-import money from "../../assets/money.png"
-import brain from "../../assets/brain.png"
-import clash from "../../assets/clash.png"
-import profile from "../../assets/profile.jpg"
-import ellipse from "../../assets/Ellipse.png"
+import React from "react";
+import profile from "../../assets/profile.jpg";
 
 const MindReading = () => {
-    return(
-        <div className="justify-center p-10 gap-10 flex flex-col lg:flex-row">
-            
-            <div className="lg:w-1/3 pt-10 ">
-           <div className="font-serif mb-20 text-5xl">
-            <p>Wondering How I</p>
-            <p>can help you heal and achieve success?
-            </p>
-           </div>
-           <div className="font-serif text-xl mt-5">
-           <p className="mb-5">
-           Because I have spent the past 7 years working with women who are navigating trauma, healing, and striving for success.
-           </p>
-           <p className="mb-5">
-           In my years of experience, I’ve seen exactly what holds women back from thriving, even when they’re putting in their best efforts.
-           </p>
-           <p className="mb-5">
-           I also know exactly how profound healing and transformative success can be achieved by overcoming the barriers holding you back and embracing your true potential.
-           </p>
-           </div>
-           </div>
-
-
-           <div className="lg:w-1/4">
-            <img
-            className="rounded-xl shadow-xl"
-            src={profile}
-            />
-           </div>
+  return (
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-10 p-6 lg:p-10 bg-gray-50">
+      {/* Text Section */}
+      <div className="lg:w-1/2">
+        <div className="text-center lg:text-left">
+          <h1 className="text-4xl lg:text-5xl font-serif font-bold text-gray-800 leading-snug mb-6">
+            Wondering How I<br />
+            Can Help You Heal<br />
+            and Achieve Success?
+          </h1>
+          <p className="text-lg lg:text-xl text-gray-600 leading-relaxed mb-5">
+            Because I have spent the past 7 years working with women who are
+            navigating trauma, healing, and striving for success.
+          </p>
+          <p className="text-lg lg:text-xl text-gray-600 leading-relaxed mb-5">
+            In my years of experience, I’ve seen exactly what holds women back
+            from thriving, even when they’re putting in their best efforts.
+          </p>
+          <p className="text-lg lg:text-xl text-gray-600 leading-relaxed">
+            I also know exactly how profound healing and transformative success
+            can be achieved by overcoming the barriers holding you back and
+            embracing your true potential.
+          </p>
         </div>
-    )
-}
+      </div>
+
+      {/* Image Section */}
+      <div className="lg:w-1/3">
+        <img
+          className="w-full h-auto rounded-2xl shadow-lg transform hover:scale-105 transition duration-300"
+          src={profile}
+          alt="Therapist Profile"
+        />
+      </div>
+    </div>
+  );
+};
 
 export default MindReading;

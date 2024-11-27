@@ -56,24 +56,24 @@ const LandingPageTwo = () => {
   const thoughts = [
     {
       content:
-        "Do you feel overwhelmed balancing family expectations with your personal dreams?",
+        "Do you feel overwhelmed balancing family expectations with your personal dreams",
     },
     {
-      content: "Are you struggling with unresolved tensions around in-laws or extended family?",
+      content: "Are you struggling with unresolved tensions around in-laws or extended family",
     },
     {
-      content: "Do you feel stuck in unequal marital roles and responsibilities?",
-    },
-    {
-      content:
-        "Are you sacrificing your career growth or personal wellness for family needs?",
+      content: "Do you feel stuck in unequal marital roles and responsibilities",
     },
     {
       content:
-        "Do you find it hard to manage the emotional weight of generational trauma or societal pressures?",
+        "Are you sacrificing your career growth or personal wellness for family needs",
     },
     {
-      content: "Are you dealing with guilt for prioritizing your needs over family expectations?",
+      content:
+        "Do you find it hard to manage the emotional weight of generational trauma or societal pressures",
+    },
+    {
+      content: "Are you dealing with guilt for prioritizing your needs over family expectations",
     }
   ];
 
@@ -197,14 +197,14 @@ const LandingPageTwo = () => {
                 key={index}
                 className="bg-[#052C1E] shadow-lg mx-5 shadow-green-800 md:w-[848px] flex flex-col md:flex-row items-center rounded-[8.17px] border-2 border-[#31C04A] text-white p-4 md:p-0"
               >
-                <div>
-                  <p className="lg:text-5xl text-3xl m-3 font-bold lg:m-10 ">
-                    ?
-                  </p>
-                </div>
                 
+                <div className="flex">
                 <div className="text-center lg:text-left pr-5 font-serif place-self-center md:ml-8 text-[18px] md:text-[22px]  text-white">
-                  {item.content}
+                  {item.content} <b className="text-3xl"> ?</b>
+                </div>
+                <div>
+                  
+                </div>
                 </div>
               </div>
             ))}
@@ -290,6 +290,52 @@ const LandingPageTwo = () => {
               </div>
             </div>
             </div>
+
+              
+            <div className="place-self-center bg-[#000E09] w-full text-white flex flex-col gap-5 mb-10">
+          <h1 className="text-[28px] mt-10 md:text-[48px] font-serif text-center">
+          Who Is This For?
+          </h1>
+          <h1 className="text-[28px] md:text-[48px] font-serif text-center">
+          This is for women who:
+          </h1>
+
+          <div className="flex flex-col w-full text-center gap-5 md:gap-10 mb-10 p-2">
+
+            {[
+                "Feel trapped by family dynamics or marital responsibilities.",
+                "Struggle with guilt for prioritizing their personal goals.",
+                "Face unresolved childhood or generational trauma.",
+                "Want to break free from societal pressures and unequal expectations.",
+                "Are ready to build a life of joy, abundance, and harmony.",
+                ].map((text, index) => (
+              <div
+                key={index}
+                className="bg-[#052C1E] shadow-lg mx-5 shadow-green-800 md:w-[848px] flex flex-col md:flex-row items-center rounded-[8.17px] border-2 border-[#31C04A] text-white p-4 md:p-0"
+              >
+                
+                <div className="flex">
+                <img
+                    className="h-[20px] w-[20px] md:h-[23px] translate-y-1 md:w-[23px]"
+                    src={icon}
+                    alt="Icon"
+                  />  
+                <div className="pl-2 lg:text-left pr-5 font-serif place-self-center md:ml-8 text-[18px] md:text-[22px]  text-white">
+                  {text} 
+                </div>
+                <div>
+                  
+                </div>
+                </div>
+              </div>
+            ))}
+
+          
+          </div>
+        </div>
+
+
+
 
 
             <div className=" mt-[100px]">

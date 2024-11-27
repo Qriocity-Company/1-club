@@ -32,7 +32,7 @@ const IntroductionTwo = () => {
             onClick={handleButtonClick}
             className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[20px] shadow-md shadow-gray-500 lg:text-[32px] font-medium"
           >
-            Build Growth, Wealth, and Relationships with Ease
+            TAKE CONTROL OF YOUR LIFE NOW!
           </button>
        
         </div>

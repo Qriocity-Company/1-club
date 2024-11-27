@@ -10,29 +10,29 @@ const Numbers = () => {
         <div className="bg-gray-100 justify-center gap-20 text-center lg:gap-44 lg:items-center flex flex-col lg:flex-row lg:h-44 mt-20">
             <div className="flex flex-col text-8xl font-bold">
                 <div>
-                    <p className="font-thin text-2xl">After Building</p>
+                    <p className="font-thin text-2xl">For over</p>
                 </div>
                 <div>
-                    <h1>7111</h1>
-                    <p className="text-3xl">of Business</p>
+                    <h1>7+</h1>
+                    <p className="text-3xl">years</p>
                 </div>
             </div>
             <div className="flex flex-col text-8xl font-bold">
                 <div>
-                    <p className="font-thin text-2xl">Working With</p>
+                    <p className="font-thin text-2xl">I've Empowered</p>
                 </div>
                 <div>
                     <h1>7000+</h1>
-                    <p className="text-3xl">Clients</p>
+                    <p className="text-3xl">Women</p>
                 </div>
             </div>
             <div className="flex flex-col text-8xl font-bold">
                 <div>
-                    <p className="font-thin text-2xl">And Solving</p>
+                    <p className="font-thin text-2xl">To Overcome</p>
                 </div>
                 <div>
-                    <h1>10000+</h1>
-                    <p className="text-3xl">of Personal & Business Problems</p>
+                    <h1>10,000+</h1>
+                    <p className="text-3xl">Personal and Professional challenges effortlessly</p>
                 </div>
             </div>  
         </div>

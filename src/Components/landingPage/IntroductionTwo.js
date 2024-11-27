@@ -21,7 +21,7 @@ const IntroductionTwo = () => {
     <div className="mt-[30px] lg:px-32 flex flex-col lg:flex-row justify-center items-center lg:items-start gap-10">
       <div className="flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-8">
         <div className="flex mx-5 flex-col text-[36px] lg:text-[64px] justify-center gap-0 items-center lg:items-start font-serif text-[#302825]">
-          <h1>Unleash Your Potential and Build Your Way to Growth, Riches and Relationships Using</h1>
+          <h1>Unlock Your Potential</h1>
           <h1 className="font-bold">The MAP METHOD™️</h1>
         </div>
         <div className="flex flex-col text-[20px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
@@ -32,7 +32,7 @@ const IntroductionTwo = () => {
             onClick={handleButtonClick}
             className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[20px] shadow-md shadow-gray-500 lg:text-[32px] font-medium"
           >
-            TAKE CONTROL OF YOUR LIFE NOW!
+            Build Growth, Wealth, and Relationships with Ease
           </button>
        
         </div>
@@ -71,7 +71,7 @@ const IntroductionTwo = () => {
           </div>
           <h1 className="text-[16px] lg:text-[24.2px] ml-5">Lydia Binil</h1>
           <h1 className="ml-5 text-[10px] lg:text-[13.52px]">
-            Success and Money Block Coach
+            Success and Money Block Coach For Women
           </h1>
         </div>
       </div>

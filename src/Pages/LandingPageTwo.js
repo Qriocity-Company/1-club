@@ -38,6 +38,7 @@ import ImageCarousel from "../Components/landingPage/ImageCarousel";
 
 const LandingPageTwo = () => {
 
+
   const handleButtonClick = () => {
     if (window.fbq) {
       window.fbq("track", "BookAppointment", {
@@ -55,24 +56,24 @@ const LandingPageTwo = () => {
   const thoughts = [
     {
       content:
-        "Do you feel like your efforts aren’t leading to success?",
+        "Do you feel overwhelmed balancing family expectations with your personal dreams?",
     },
     {
-      content: "Are you wondering what you might be doing wrong?",
+      content: "Are you struggling with unresolved tensions around in-laws or extended family?",
     },
     {
-      content: "Do you think your business can survive this financial crisis? Are you afraid of losing everything?",
-    },
-    {
-      content:
-        "Are you struggling to balance growing your business and spending time with your family?",
+      content: "Do you feel stuck in unequal marital roles and responsibilities?",
     },
     {
       content:
-        "Do you question if you’re making enough money to support your family long-term?",
+        "Are you sacrificing your career growth or personal wellness for family needs?",
     },
     {
-      content: "Do you wonder why your team isn’t performing as expected? Do you feel like you’re not being an effective leader?",
+      content:
+        "Do you find it hard to manage the emotional weight of generational trauma or societal pressures?",
+    },
+    {
+      content: "Are you dealing with guilt for prioritizing your needs over family expectations?",
     }
   ];
 
@@ -83,6 +84,21 @@ const LandingPageTwo = () => {
         "An effective method that’s still outdated - Talk Therapy, NLP, Hypnotherapy, Family Constellations, Ho’oponopono, etc.",
       check2: "MAP - 45+ years of research",
     },
+
+    {
+      name: "Specialisation",
+      check1:
+        " Focus on generic strategies that don’t address the unique struggles women face.",
+      check2: " I specialize in working with women and understand the challenges of balancing family, career, and personal growth.",
+    },
+
+    {
+      name: "Understanding",
+      check1:
+        "Often lack real-world experience working with women from diverse backgrounds.",
+      check2: "With years of experience and thousands of women coached, I understand what truly works and why.",
+    },
+
     {
       name: "Approach",
       check1: "Normal approach",
@@ -115,23 +131,23 @@ const LandingPageTwo = () => {
     {
       
       check1:
-        "Constant financial struggles, limited mindset around wealth, lack of financial confidence",
-      check2: "Cultivate an abundance mindset, rewire limiting beliefs, attract prosperity with strategic financial habits",
+        "Feeling undervalued in your marriage and family.",
+      check2: "Valued and confident in your relationships.",
     },
     {
       
-      check1: "Engaging in self-destructive behaviors, procrastination, undermining own success",
-      check2: "Break free from self-sabotage through self-awareness, positive habits, and intentional actions aligned with goals",
+      check1: "Guilt for pursuing your dreams.",
+      check2: "Pursue your goals without guilt.",
     },
     {
       
-      check1: "Despite recognizing your worth, you struggle to negotiate and often settle for less than you deserve in your career.",
-      check2: "Assertively pursue career goals, negotiating for what you deserve",
+      check1: "Overwhelmed by unequal marital roles.",
+      check2: "Create equality and harmony in your marriage.",
     },
     {
       
-      check1: "Your emotions and thoughts seem to dictate your actions, acting as the unspoken bosses of your life.",
-      check2: "‍Effectively clears away negative memories, emotions, and experiences that could harm current and future business success.",
+      check1: "Trapped by family expectations.",
+      check2: "Set boundaries and build fulfilling relationships.",
     }
     
   ];
@@ -276,26 +292,48 @@ const LandingPageTwo = () => {
             </div>
 
 
+            <div className=" mt-[100px]">
+          <h1 className="text-center font-serif text-[32px] md:text-[48px]">
+          Who Is This For? 
+          </h1>
+          <h1 className="text-center font-serif text-[32px] md:text-[48px]">
+          This is for women who:
+          </h1>
+          
 
-            {/* WHO CAN BOOK Section */}
-
-            <div className="w-full px-10 text-3xl lg:text-5xl font-serif text-center my-20">
-            Who can book this success block diagnosis call ?
-                <div className="flex gap-10 justify-center mt-10 flex-col lg:flex-row">
-                  <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Entrepreneurs </div>
-                  <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Coaches </div>
-                  <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Consultants </div>
-                  <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> FreeLancers </div>
+          <div className="flex justify-center items-center w-full relative overflow-x-hidden p-4">
+            <div className="bg-[#C1E5CA] rounded-full h-[200px] md:h-[379px] w-[200px] md:w-[379px] absolute opacity-20 -right-[150px] md:-right-[200px]"></div>
+            <img src={leaf2} className="absolute right-0 hidden lg:block" />
+            <div className="bg-green-200 border-2  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
+              {[
+                "Feel trapped by family dynamics or marital responsibilities.",
+                "Struggle with guilt for prioritizing their personal goals.",
+                "Face unresolved childhood or generational trauma.",
+                "Want to break free from societal pressures and unequal expectations.",
+                "Are ready to build a life of joy, abundance, and harmony.",
+                ].map((text, index) => (
+                <div
+                  key={index}
+                  className="flex  border-green-900 border-opacity-35 w-5/6 justify-start lg:items-start items-center gap-4 mb-4 "
+                >
+                  
+                  <img
+                    className="h-[20px] w-[20px] md:h-[23px] md:w-[23px]"
+                    src={icon}
+                    alt="Icon"
+                  />
+                  
+                  <h1 className="w-full md:w-[763px]">{text}</h1>
+                  
                 </div>
-                <div className="flex gap-10 justify-center mt-10 flex-col lg:flex-row">
-                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Business Owners </div>
-                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Doctors </div>
-                
-                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Successful Professionals</div>
-                <div className="bg-green-400 hover:bg-green-600 transition-all duration-300 text-3xl p-4 shadow-md shadow-black rounded-xl"> Corporate Leaders </div>
-              
-                </div>
+              ))}
             </div>
+          </div>
+          </div>
+
+
+
+            
 
 
             {/* Concerns Section */}
@@ -346,15 +384,11 @@ const LandingPageTwo = () => {
             <img src={leaf2} className="absolute right-0 hidden lg:block" />
             <div className="bg-green-200 border-2  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
               {[
-                "Keep living with patterns of overthinking, self-doubt, Fear, and worry where you cannot be more creative, peaceful, and confident",
-                "Keep getting triggered & controlled by your thoughts, emotions & feeling",
-                "Keep living with money blocks, never breaking free from the beliefs that hold you back from financial freedom and abundance.",
-                "Keep struggling with success blocks, unable to unlock your full potential, and always feeling like you’re falling short of your goals.",
-                "Keep settling for less than you deserve, allowing financial stress and success anxiety to control your life, your choices, and your happiness.",
-                "Keep staying stuck in your life with blockages that are holding you back from creating a life you desire and deserve",
-                "Anxiety, depression, frustration, lack of motivation & feeling of looser",
-                "Life with regrets for not taking action to change your life when needed most",
-              ].map((text, index) => (
+                "Staying stuck in toxic family dynamics.",
+                "Letting unresolved trauma keep you from peace and success.",
+                "Sacrificing your career growth or passion for family expectations.",
+                "Living with guilt and emotional exhaustion every day.",
+                ].map((text, index) => (
                 <div
                   key={index}
                   className="flex  border-green-900 border-opacity-35 w-5/6 justify-start lg:items-start items-center gap-4 mb-4 "

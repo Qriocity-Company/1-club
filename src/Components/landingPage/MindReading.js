@@ -16,19 +16,20 @@ const MindReading = () => {
         <div className="justify-center p-10 gap-10 flex flex-col lg:flex-row">
             
             <div className="lg:w-1/3 pt-10 ">
-           <div className="font-serif mb-20 text-6xl">
+           <div className="font-serif mb-20 text-5xl">
             <p>Wondering How I</p>
-            <p>can read your mind?</p>
+            <p>can help you heal and achieve success?
+            </p>
            </div>
            <div className="font-serif text-xl mt-5">
            <p className="mb-5">
-           Because I have worked with coaches, business owners, consultants, creators and ambitious professionals for the past 7 years.
+           Because I have spent the past 7 years working with women who are navigating trauma, healing, and striving for success.
            </p>
            <p className="mb-5">
-            And in my 7 years of experience, I know exactly what is keeping them unsuccessful despite working so hard.
+           In my years of experience, I’ve seen exactly what holds women back from thriving, even when they’re putting in their best efforts.
            </p>
            <p className="mb-5">
-           And I know exactly how phenomenal success can be achieved…
+           I also know exactly how profound healing and transformative success can be achieved by overcoming the barriers holding you back and embracing your true potential.
            </p>
            </div>
            </div>

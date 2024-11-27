@@ -25,7 +25,8 @@ const IntroductionTwo = () => {
           <h1 className="font-bold">The MAP METHOD™️</h1>
         </div>
         <div className="flex flex-col text-[20px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
-          
+        Build Growth, Wealth, and Relationships with Ease
+
         </div>
         <div className="button flex flex-col justify-center items-center lg:items-start">
           <button

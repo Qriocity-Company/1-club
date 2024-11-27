@@ -338,45 +338,7 @@ const LandingPageTwo = () => {
 
 
 
-            <div className=" mt-[100px]">
-          <h1 className="text-center font-serif text-[32px] md:text-[48px]">
-          Who Is This For? 
-          </h1>
-          <h1 className="text-center font-serif text-[32px] md:text-[48px]">
-          This is for women who:
-          </h1>
           
-
-          <div className="flex justify-center items-center w-full relative overflow-x-hidden p-4">
-            <div className="bg-[#C1E5CA] rounded-full h-[200px] md:h-[379px] w-[200px] md:w-[379px] absolute opacity-20 -right-[150px] md:-right-[200px]"></div>
-            <img src={leaf2} className="absolute right-0 hidden lg:block" />
-            <div className="bg-green-200 border-2  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
-              {[
-                "Feel trapped by family dynamics or marital responsibilities.",
-                "Struggle with guilt for prioritizing their personal goals.",
-                "Face unresolved childhood or generational trauma.",
-                "Want to break free from societal pressures and unequal expectations.",
-                "Are ready to build a life of joy, abundance, and harmony.",
-                ].map((text, index) => (
-                <div
-                  key={index}
-                  className="flex  border-green-900 border-opacity-35 w-5/6 justify-start lg:items-start items-center gap-4 mb-4 "
-                >
-                  
-                  <img
-                    className="h-[20px] w-[20px] md:h-[23px] md:w-[23px]"
-                    src={icon}
-                    alt="Icon"
-                  />
-                  
-                  <h1 className="w-full md:w-[763px]">{text}</h1>
-                  
-                </div>
-              ))}
-            </div>
-          </div>
-          </div>
-
 
 
             
@@ -428,7 +390,7 @@ const LandingPageTwo = () => {
           <div className="flex justify-center items-center w-full relative overflow-x-hidden p-4">
             <div className="bg-[#C1E5CA] rounded-full h-[200px] md:h-[379px] w-[200px] md:w-[379px] absolute opacity-20 -right-[150px] md:-right-[200px]"></div>
             <img src={leaf2} className="absolute right-0 hidden lg:block" />
-            <div className="bg-green-200 border-2  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
+            <div className="bg-green-200 border-2 text-center  border-[#37D550] shadow-xl rounded-[20px] md:rounded-[47px] h-auto md:h-[850px] md:w-[750px] flex flex-col justify-evenly items-start p-4 text-[16px] md:text-[18px] w-full">
               {[
                 "Staying stuck in toxic family dynamics.",
                 "Letting unresolved trauma keep you from peace and success.",

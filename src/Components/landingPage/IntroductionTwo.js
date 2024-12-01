@@ -25,7 +25,7 @@ const IntroductionTwo = () => {
           <h1 className="font-bold">The MAP METHOD™️</h1>
         </div>
         <div className="flex flex-col mx-5 text-[30px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
-        Growth, Wealth, and Relationships with Ease
+        Break Limits, Rewrite Your Story, and Create Lasting Wealth, Freedom, and Meaningful Marriage.
 
         </div>
         <div className="button flex flex-col justify-center items-center lg:items-start">

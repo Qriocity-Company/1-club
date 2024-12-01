@@ -59,7 +59,7 @@ const LandingPageTwo = () => {
         "Do you feel overwhelmed balancing family expectations with your personal dreams",
     },
     {
-      content: "Are you struggling with unresolved tensions around in-laws or extended family",
+      content: "Are you struggling with unresolved tensions around inlaws or extended family",
     },
     {
       content: "Do you feel stuck in unequal marital roles and responsibilities",

@@ -213,7 +213,7 @@ const LandingPageTwo = () => {
             
             className="bg-[#0B6544] my-5 hover:bg-green-900 transition-all  duration-300 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >
-            REMOVE THESE THOUGHTS FROM YOU
+            YES, REMOVE THESE THOUGHTS FROM ME
           </button>
           
           </div>

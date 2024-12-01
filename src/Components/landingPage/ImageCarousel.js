@@ -85,6 +85,7 @@ function ImageCarousel() {
           {images.map((image, index) => (
             <div key={index} className="p-4">
               <div className="bg-gray-100 h-[250px] md:h-[300px] rounded-xl overflow-hidden">
+                <p className="absolute bg-green-300 p-2 px-4 m-3 rounded-full">{index + 1}</p>
                 <img
                   src={image}
                   alt={`Slide ${index + 1}`}

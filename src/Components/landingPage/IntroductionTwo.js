@@ -22,7 +22,7 @@ const IntroductionTwo = () => {
       <div className="flex flex-col justify-center items-center lg:items-start gap-4 lg:gap-8">
         <div className="flex mx-5 flex-col text-[36px] lg:text-[64px] justify-center gap-0 items-center lg:items-start font-serif text-[#302825]">
           <h1>Unlock Your Potential</h1>
-          <h1 className="font-bold">The MAP METHOD™️</h1>
+          <h1 className="font-bold">Using The MAP METHOD™️</h1>
         </div>
         <div className="flex flex-col mx-5 text-[30px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
         Break Limits, Rewrite Your Story, and Create Lasting Wealth, Freedom, and Meaningful Marriage.

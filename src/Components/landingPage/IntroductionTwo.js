@@ -14,7 +14,7 @@ const IntroductionTwo = () => {
     //   });
     // }
     
-    window.open("hhttps://app.simplymeet.me/trauma2triumph/trauma2triumph", "_blank");
+    window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph", "_blank");
   };
 
   return (

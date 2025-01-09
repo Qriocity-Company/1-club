@@ -47,7 +47,7 @@ const LandingPageTwo = () => {
       });
      }
 
-    window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph-15-1731481629597", "_blank");
+    window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph", "_blank");
   };
   
 

@@ -15,10 +15,10 @@ const Footer = () => {
     //     currency: "USD",
     //   });
     // }
-
     // Redirect to Stripe payment gateway
     window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph-15-1731481629597", "_blank");
   };
+
 
   useEffect(() => {
     const timer = setInterval(() => {

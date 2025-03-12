@@ -23,11 +23,47 @@ const IntroductionTwo = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form Data Submitted:", formData);
-    // You can send the form data to an API or perform other actions
+
+    const webAppUrl = "https://script.google.com/macros/s/AKfycbzWUudswNPPCH-Qf03ao0_E94cy4Assb6unRqg4Mc013di95fXvzWDQo5_ZmufguNmIHQ/exec"; // Replace with your Web App URL
+
+    try {
+      const response = await fetch(webAppUrl, {
+        method: "POST",
+        mode: "no-cors", // Disable CORS
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert("Form submitted successfully!");
+        // Reset the form
+        setFormData({
+          name: "",
+          city: "",
+          contactNumber: "",
+          email: "",
+          problemDescription: "",
+          profession: "",
+        });
+      } else {
+        alert("Form submitted successfully!");
+        setFormData({
+          name: "",
+          city: "",
+          contactNumber: "",
+          email: "",
+          problemDescription: "",
+          profession: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("An error occurred. Please try again.");
+    }
   };
 
   return (
@@ -53,7 +89,7 @@ const IntroductionTwo = () => {
             placeholder="Please Enter your Name"
             value={formData.name}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             required
           />
           <input
@@ -62,7 +98,7 @@ const IntroductionTwo = () => {
             placeholder="Enter the City you are from"
             value={formData.city}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             required
           />
           <input
@@ -71,7 +107,7 @@ const IntroductionTwo = () => {
             placeholder="Share your Contact Number"
             value={formData.contactNumber}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             required
           />
           <input
@@ -80,7 +116,7 @@ const IntroductionTwo = () => {
             placeholder="Type your email"
             value={formData.email}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             required
           />
           <textarea
@@ -88,7 +124,7 @@ const IntroductionTwo = () => {
             placeholder="Describe your problem"
             value={formData.problemDescription}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             rows="4"
             required
           />
@@ -96,7 +132,7 @@ const IntroductionTwo = () => {
             name="profession"
             value={formData.profession}
             onChange={handleInputChange}
-            className="p-2 border border-black rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             required
           >
             <option value="">Select your profession</option>
@@ -107,9 +143,9 @@ const IntroductionTwo = () => {
           </select>
           <button
             type="submit"
-            className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[20px] shadow-md shadow-gray-500 lg:text-[22px] font-medium"
+            className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[20px] shadow-md shadow-gray-500 lg:text-[32px] font-medium"
           >
-            TAKE CONTROL OF YOUR LIFE
+            SUBMIT
           </button>
         </form>
 

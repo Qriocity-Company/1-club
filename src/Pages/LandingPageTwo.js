@@ -510,7 +510,7 @@ Anxiety in just 2 mins</h1>
         <ImageCarousel  />
         </div>
         <div className="text-center">
-        <button onClick={handleButtonClick}
+        <button onClick={()=>{window.open("https://topmate.io/lydia_binil/1460378")}}
             
             className="bg-[#0B6544]  mb-32 rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[24px] lg:text-[32px] font-medium"
           >

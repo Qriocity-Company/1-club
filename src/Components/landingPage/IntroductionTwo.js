@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import calendar from "../../assets/calendar.png";
 import clock from "../../assets/clock.png";
 import coach from "../../assets/coach.png";
@@ -6,15 +6,28 @@ import star from "../../assets/star.png";
 import smallstar from "../../assets/smallstar.png";
 
 const IntroductionTwo = () => {
-  const handleButtonClick = () => {
-    // if (window.fbq) {
-    //   window.fbq("track", "BookAppointment", {
-    //     content_name: "Google Calendar Booking",
-    //     content_category: "Appointment",
-    //   });
-    // }
-    
-    window.open("https://app.simplymeet.me/trauma2triumph/trauma2triumph", "_blank");
+  const [formData, setFormData] = useState({
+    name: "",
+    city: "",
+    contactNumber: "",
+    email: "",
+    problemDescription: "",
+    profession: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    console.log("Form Data Submitted:", formData);
+    // You can send the form data to an API or perform other actions
   };
 
   return (
@@ -25,30 +38,88 @@ const IntroductionTwo = () => {
           <h1 className="font-bold">Using The MAP METHOD™️</h1>
         </div>
         <div className="flex flex-col mx-5 text-[30px] lg:text-[30px] justify-center items-center lg:items-start font-serif">
-        Break Limits, Rewrite Your Story, and Create Lasting Wealth, Freedom, and Meaningful Marriage.
-
+          Don’t let supressed emotions, trauma, and pain hold you back. You can
+          heal and grow.
         </div>
-        <div className="button flex flex-col justify-center items-center lg:items-start">
+
+        {/* Lead Form */}
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col gap-4 w-full max-w-md"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Please Enter your Name"
+            value={formData.name}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            required
+          />
+          <input
+            type="text"
+            name="city"
+            placeholder="Enter the City you are from"
+            value={formData.city}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            required
+          />
+          <input
+            type="tel"
+            name="contactNumber"
+            placeholder="Share your Contact Number"
+            value={formData.contactNumber}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Type your email"
+            value={formData.email}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            required
+          />
+          <textarea
+            name="problemDescription"
+            placeholder="Describe your problem"
+            value={formData.problemDescription}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            rows="4"
+            required
+          />
+          <select
+            name="profession"
+            value={formData.profession}
+            onChange={handleInputChange}
+            className="p-2 border border-black rounded-md"
+            required
+          >
+            <option value="">Select your profession</option>
+            <option value="Homemaker">Homemaker</option>
+            <option value="Working">Working</option>
+            <option value="Student">Student</option>
+            <option value="Retired">Retired</option>
+          </select>
           <button
-            onClick={handleButtonClick}
+            type="submit"
             className="bg-[#0B6544] rounded-full px-4 py-2 lg:px-6 lg:py-4 text-white text-[20px] shadow-md shadow-gray-500 lg:text-[32px] font-medium"
           >
-            TAKE CONTROL OF YOUR LIFE NOW!
+            TAKE CONTROL OF YOUR LIFE
           </button>
-       
-        </div>
+        </form>
+
         <div className="flex flex-col justify-center items-start lg:items-start gap-2 lg:gap-5">
           <div className="flex justify-center items-center gap-2">
-            <h1 className="text-[16px]  text-[#302825] font-bold lg:text-[32px]">
-            100% Backed by Science 
+            <h1 className="text-[16px] text-[#302825] font-bold lg:text-[32px]">
+              100% Backed by Science
             </h1>
           </div>
-          <div className="flex justify-center items-center gap-2">
-            
-          </div>
         </div>
-
-        
       </div>
 
       <div className="relative lg:place-self-end flex justify-center">
@@ -61,12 +132,9 @@ const IntroductionTwo = () => {
         />
       </div>
 
-     
-
       <div className="flex flex-col justify-center items-center gap-4 lg:gap-10 p-2">
-        
         <img src={coach} alt="Coach" className="h-96 min-w-96" />
-        <div className="bg-black text-white  flex-col justify-center items-start w-full lg:w-[250.24px] h-[82.35px] rounded-[12.67px] mt-6 lg:mt-[450px] lg:ml-[150px] lg:absolute hidden lg:flex">
+        <div className="bg-black text-white flex-col justify-center items-start w-full lg:w-[250.24px] h-[82.35px] rounded-[12.67px] mt-6 lg:mt-[450px] lg:ml-[150px] lg:absolute hidden lg:flex">
           <div className="bg-[#0A6544] flex justify-center items-center h-[18.59px] w-[34.64px] -mt-6 ml-5 rounded-sm">
             by
           </div>

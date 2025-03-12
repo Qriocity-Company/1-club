@@ -45,10 +45,10 @@ const Meet = () => {
           </div>
         </div>
         <button
-          onClick={handleButtonClick}
+          onClick={()=>window.open("https://topmate.io/lydia_binil/1460378")}
           className="bg-[#0B6544] hover:bg-green-900 transition-all  rounded-full p-3 md:ml-[100px] mt-10 text-white w-fit text-[24px] md:text-[32px] font-medium"
         >
-          BOOK YOUR SUCCESS BLOCK DIAGNOSIS CALL
+          Get in touch with Lydia
         </button>
       </div>
       <div className="hidden lg:relative mt-10 md:mt-[100px] md:ml-[150px] lg:flex flex-col items-center">
